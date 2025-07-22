@@ -8,7 +8,9 @@ import ProductCard from "@/components/ProductCard";
 const categories = [
   { key: "all", name: "Semua" },
   { key: "sayur", name: "Sayur" },
-  { key: "daging", name: "Daging" }
+  { key: "daging", name: "Daging" },
+  { key: "buah", name: "Buah" },
+  { key: "rempah", name: "Rempah"}
 ];
 
 export default function Products() {
@@ -65,7 +67,7 @@ export default function Products() {
   return (
     <>
       <Head>
-        <title>Daftar Produk | PasarSegar</title>
+        <title>Daftar Produk | SuperSayur</title>
       </Head>
       <Navbar />
       <main className="min-h-screen bg-gray-50 pb-20 animate-fadeIn">

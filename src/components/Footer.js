@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-white border-t pt-10">
+    <footer className="bg-white pt-10">
       {/* Atas */}
       <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row md:justify-between gap-12 md:gap-0">
         {/* Kolom Links */}

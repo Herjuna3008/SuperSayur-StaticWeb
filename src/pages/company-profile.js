@@ -17,7 +17,7 @@ export default function CompanyProfile() {
           </p>
           <div className="space-y-5">
             <p>
-              Berdiri sejak 2024, kami telah bekerja sama dengan para petani lokal dan distributor utama untuk memastikan seluruh produk kami selalu segar dan aman konsumsi. 
+              Berdiri sejak 2004, kami telah bekerja sama dengan para petani lokal dan distributor utama untuk memastikan seluruh produk kami selalu segar dan aman konsumsi. 
             </p>
             <p>
               Visi kami adalah menjadi solusi utama untuk kebutuhan bahan baku makanan dalam skala besar maupun retail, dengan pelayanan yang profesional dan ramah.
