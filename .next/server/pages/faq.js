@@ -2,7 +2,6 @@ const CHUNK_PUBLIC_PATH = "server/pages/faq.js";
 const runtime = require("../chunks/ssr/[turbopack]_runtime.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_bf671b14._.js");
 runtime.loadChunk("server/chunks/ssr/[root-of-the-server]__c75c51b7._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_react-icons_fi_index_mjs_faa0559a._.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_react-icons_fa_index_mjs_275a2265._.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_react-icons_lib_6322dabf._.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_1b605d89._.js");

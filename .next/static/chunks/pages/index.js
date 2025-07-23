@@ -6,11 +6,10 @@ __turbopack_load_page_chunks__("/", [
   "static/chunks/node_modules_next_dist_a3e9a08f._.js",
   "static/chunks/node_modules_next_9c8728f4._.js",
   "static/chunks/node_modules_react-dom_82bb97c6._.js",
-  "static/chunks/node_modules_react-icons_fi_index_mjs_73949438._.js",
   "static/chunks/node_modules_react-icons_fa_index_mjs_bad01e3f._.js",
   "static/chunks/node_modules_react-icons_lib_75a63dfe._.js",
   "static/chunks/node_modules_a80c7711._.js",
   "static/chunks/[root-of-the-server]__6f8ae951._.js",
   "static/chunks/src_pages_index_5771e187._.js",
-  "static/chunks/src_pages_index_9c57b287._.js"
+  "static/chunks/src_pages_index_7a2cee16._.js"
 ])

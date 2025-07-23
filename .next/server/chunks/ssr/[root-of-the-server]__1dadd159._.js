@@ -41,8 +41,6 @@ __turbopack_context__.s({
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react/jsx-dev-runtime [external] (react/jsx-dev-runtime, cjs)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/link.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react [external] (react, cjs)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/fi/index.mjs [ssr] (ecmascript)");
-;
 ;
 ;
 ;
@@ -75,31 +73,37 @@ const navLinks = [
 function Navbar() {
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])(false);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("nav", {
-        className: "bg-green-700 text-white sticky top-0 z-50 shadow-md",
+        className: "bg-white shadow-lg sticky top-0 z-50 backdrop-blur-sm bg-white/95",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                className: "max-w-7xl mx-auto px-2 py-3 flex items-center justify-between",
+                className: "max-w-7xl mx-auto px-4 py-4 flex items-center justify-between",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                         href: "/",
-                        className: "text-2xl font-bold tracking-tight text-white whitespace-nowrap",
+                        className: "text-2xl font-bold tracking-tight text-green-700 whitespace-nowrap hover:text-green-600 transition-colors duration-200",
                         children: "SuperSayur"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Navbar.js",
-                        lineNumber: 21,
+                        lineNumber: 20,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        className: "hidden md:flex gap-3 items-center flex-shrink-0",
+                        className: "hidden md:flex gap-8 items-center",
                         children: [
-                            navLinks.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                            navLinks && navLinks.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                     href: link.href,
-                                    className: "relative px-2 py-1 transition-all duration-150 font-medium whitespace-nowrap text-[15px]   hover:text-green-200 focus:text-green-200   before:absolute before:left-0 before:bottom-0 before:h-[2px] before:w-0   before:bg-green-200 before:transition-all before:duration-200   hover:before:w-full focus:before:w-full   before:rounded",
-                                    style: {
-                                        overflow: 'hidden'
-                                    },
-                                    children: link.label
-                                }, link.href, false, {
+                                    className: "relative px-3 py-2 font-medium text-gray-700 text-sm transition-all duration-300 hover:text-green-600 group",
+                                    children: [
+                                        link.label,
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                            className: "absolute bottom-0 left-0 w-0 h-0.5 bg-green-600 transition-all duration-300 group-hover:w-full"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/Navbar.js",
+                                            lineNumber: 33,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, link.href, true, {
                                     fileName: "[project]/src/components/Navbar.js",
                                     lineNumber: 27,
                                     columnNumber: 13
@@ -108,11 +112,11 @@ function Navbar() {
                                 href: "https://wa.me/6281234567890",
                                 target: "_blank",
                                 rel: "noopener noreferrer",
-                                className: "ml-1 px-3 py-2 rounded-full bg-white text-green-700 font-semibold shadow hover:bg-green-100 hover:scale-105 transition-transform text-[15px]",
+                                className: "ml-4 px-6 py-2 rounded-full bg-green-600 text-white font-semibold shadow-md transition-all duration-300 hover:bg-green-700 hover:shadow-lg hover:scale-105 text-sm",
                                 children: "WhatsApp"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Navbar.js",
-                                lineNumber: 41,
+                                lineNumber: 36,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -122,71 +126,86 @@ function Navbar() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
-                        className: "md:hidden text-3xl focus:outline-none",
+                        className: "md:hidden focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md p-2",
                         onClick: ()=>setOpen(!open),
-                        "aria-label": open ? "Tutup menu" : "Buka menu",
-                        children: open ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["FiX"], {}, void 0, false, {
+                        "aria-label": open ? "Close menu" : "Open menu",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                            className: `hamburger ${open ? "open" : ""}`,
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {}, void 0, false, {
+                                    fileName: "[project]/src/components/Navbar.js",
+                                    lineNumber: 53,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {}, void 0, false, {
+                                    fileName: "[project]/src/components/Navbar.js",
+                                    lineNumber: 54,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {}, void 0, false, {
+                                    fileName: "[project]/src/components/Navbar.js",
+                                    lineNumber: 55,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/src/components/Navbar.js",
-                            lineNumber: 56,
-                            columnNumber: 19
-                        }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["FiMenu"], {}, void 0, false, {
-                            fileName: "[project]/src/components/Navbar.js",
-                            lineNumber: 56,
-                            columnNumber: 29
+                            lineNumber: 52,
+                            columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/Navbar.js",
-                        lineNumber: 51,
+                        lineNumber: 47,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Navbar.js",
-                lineNumber: 19,
+                lineNumber: 18,
                 columnNumber: 7
             }, this),
             open && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                className: "md:hidden bg-green-800 text-white shadow-lg animate-slideDown origin-top",
+                className: "md:hidden bg-white border-t border-gray-200 shadow-lg animate-slideDown origin-top",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "flex flex-col gap-2 px-6 py-3",
+                    className: "flex flex-col px-6 py-4 space-y-2",
                     children: [
-                        navLinks.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                        navLinks && navLinks.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 href: link.href,
-                                className: "py-2 border-b border-green-700 hover:bg-green-600 rounded transition-all duration-150 hover:scale-[1.03]",
+                                className: "py-3 px-2 text-gray-700 font-medium border-b border-gray-100 hover:text-green-600 hover:bg-green-50 rounded-md transition-all duration-200",
                                 onClick: ()=>setOpen(false),
                                 children: link.label
                             }, link.href, false, {
                                 fileName: "[project]/src/components/Navbar.js",
-                                lineNumber: 64,
+                                lineNumber: 65,
                                 columnNumber: 15
                             }, this)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
                             href: "https://wa.me/6281234567890",
                             target: "_blank",
                             rel: "noopener noreferrer",
-                            className: "mt-2 px-4 py-2 rounded-full bg-white text-green-700 font-semibold shadow hover:bg-green-100 hover:scale-105 transition-transform",
+                            className: "mt-4 px-6 py-3 rounded-full bg-green-600 text-white font-semibold shadow-md text-center transition-all duration-300 hover:bg-green-700 hover:shadow-lg hover:scale-105",
                             onClick: ()=>setOpen(false),
                             children: "WhatsApp"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Navbar.js",
-                            lineNumber: 73,
+                            lineNumber: 74,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Navbar.js",
-                    lineNumber: 62,
+                    lineNumber: 63,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/Navbar.js",
-                lineNumber: 61,
+                lineNumber: 62,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/Navbar.js",
-        lineNumber: 18,
+        lineNumber: 17,
         columnNumber: 5
     }, this);
 }
