@@ -73,10 +73,9 @@ function NotFoundPage() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
-                        src: "https://undraw.co/static/images/undraw_page_not_found_su7k.svg",
+                        src: "https://png.pngtree.com/png-clipart/20250219/original/pngtree-a-green-question-mark-icon-png-image_20478825.png",
                         alt: "Ilustrasi 404",
-                        className: "w-[300px] md:w-[400px] mt-10 opacity-90",
-                        draggable: false
+                        className: "w-[300px] md:w-[300px] opacity-75"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/404.js",
                         lineNumber: 24,

@@ -1,10 +1,32 @@
 import "@/styles/globals.css";
 import Head from "next/head";
+import { useState, useEffect } from "react";
+import { useRouter } from "next/router";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FloatingWhatsapp from "@/components/FloatingWhatsapp";
+import LoadingOverlay from "@/components/LoadingSpinner";
 
 // Kalau kamu ingin Navbar & Footer tampil di seluruh halaman, import di sini (bisa juga khusus page)
 export default function App({ Component, pageProps }) {
+  const [loading, setLoading] = useState(false);
+  const router = useRouter();
+
+  useEffect(() => {
+    const start = () => setLoading(true);
+    const end = () => setLoading(false);
+
+    router.events.on("routeChangeStart", start);
+    router.events.on("routeChangeComplete", end);
+    router.events.on("routeChangeError", end);
+
+    return () => {
+      router.events.off("routeChangeStart", start);
+      router.events.off("routeChangeComplete", end);
+      router.events.off("routeChangeError", end);
+    };
+  }, [router]);
+
   return (
     <>
       <Head>
@@ -14,9 +36,12 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" href="@/public/favicon.ico" />
       </Head>
       {/* Untuk efek transisi halaman, bisa tambah animasi di container */}
-      <div className="min-h-screen flex flex-col bg-green-50">
-      <Component {...pageProps} />
-      </div>
+      <LoadingOverlay show={loading}>
+        <div className="min-h-screen flex flex-col bg-green-50">
+          <Component {...pageProps} />
+          <FloatingWhatsapp />
+        </div>
+      </LoadingOverlay>
     </>
   );
 }

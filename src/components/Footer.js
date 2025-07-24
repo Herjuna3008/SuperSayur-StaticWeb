@@ -3,9 +3,21 @@ import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-white pt-10">
-      {/* Atas */}
-      <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row md:justify-between gap-12 md:gap-0">
+    <footer className="relative bg-white pt-10 overflow-hidden">
+      {/* Background Image (left-bottom, not blocking content) */}
+      <div
+        className="absolute left-0 bottom-0 h-full w-1/2 pointer-events-none grayscale"
+        style={{
+          backgroundImage: "url('https://i.postimg.cc/sx6RRtK2/Layer-1-300x.png')",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "left bottom",
+          backgroundSize: "contain",
+          opacity: 0.2,
+          zIndex: 1,
+        }}
+      />
+      {/* Content */}
+      <div className="relative z-10 max-w-6xl mx-auto px-4 flex flex-col md:flex-row md:justify-between gap-12 md:gap-0">
         {/* Kolom Links */}
         <div className="flex flex-1 flex-col md:flex-row gap-10 md:gap-20">
           <div>
@@ -53,28 +65,19 @@ export default function Footer() {
           <div className="text-2xl font-bold text-green-600 mb-1">Belanja Segar Makin Mudah!</div>
           <div className="text-gray-500 mb-4">Pesan sayur & daging dari mana saja, kapan saja.</div>
           <div className="flex gap-3">
-          <a
-            href="https://wa.me/6281234567890"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-green-600 text-white px-7 py-3 rounded-full font-semibold shadow hover:bg-green-700 hover:scale-105 transition-transform text-lg mt-6"
-          >
-            Hubungi via WhatsApp
-          </a>
+            <a
+              href="/contact"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-green-600 text-white px-7 py-3 rounded-full font-semibold shadow hover:bg-green-700 hover:scale-105 transition-transform text-lg mt-6"
+            >
+              Hubungi via WhatsApp
+            </a>
           </div>
         </div>
       </div>
-      {/* Ilustrasi */}
-      <div className="w-full flex justify-center mt-10">
-        <img
-          src="https://undraw.co/static/images/undraw_deliveries_2r4y.svg"
-          alt="Ilustrasi pengantaran"
-          className="w-full md:w-[800px] h-36 object-contain object-bottom select-none pointer-events-none"
-          draggable={false}
-        />
-      </div>
       {/* Copyright */}
-      <div className="bg-gray-500 text-gray-100 text-center text-sm py-4 mt-8">
+      <div className="bg-gray-500 text-gray-100 text-center text-sm py-4 mt-8 relative z-10">
         &copy; 2025 SuperSayur. All rights reserved.
         <div className="text-xs text-green-100 opacity-80">
           Developed by SuperSayur Team

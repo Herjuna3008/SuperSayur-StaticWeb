@@ -88,6 +88,24 @@ function ContactPage() {
                                             fileName: "[project]/src/pages/contact.js",
                                             lineNumber: 22,
                                             columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
+                                            children: " & "
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/pages/contact.js",
+                                            lineNumber: 25,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
+                                            href: "https://wa.me/6281234567890",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            className: "text-green-700 hover:underline",
+                                            children: "+62 812-3456-7890"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/pages/contact.js",
+                                            lineNumber: 26,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
@@ -102,7 +120,7 @@ function ContactPage() {
                                             children: "Email: "
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/contact.js",
-                                            lineNumber: 27,
+                                            lineNumber: 31,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
@@ -111,13 +129,13 @@ function ContactPage() {
                                             children: "info@SuperSayur.com"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/contact.js",
-                                            lineNumber: 28,
+                                            lineNumber: 32,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/contact.js",
-                                    lineNumber: 26,
+                                    lineNumber: 30,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -126,15 +144,35 @@ function ContactPage() {
                             lineNumber: 15,
                             columnNumber: 11
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
-                            href: "https://wa.me/6281234567890",
-                            target: "_blank",
-                            rel: "noopener noreferrer",
-                            className: "inline-block bg-green-600 text-white px-7 py-3 rounded-full font-semibold shadow hover:bg-green-700 hover:scale-105 transition-transform text-lg mt-6",
-                            children: "Hubungi via WhatsApp"
-                        }, void 0, false, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                            className: "flex space-x-4",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
+                                    href: "https://wa.me/6281234567890",
+                                    target: "_blank",
+                                    rel: "noopener noreferrer",
+                                    className: "inline-block bg-green-600 text-white px-7 py-3 rounded-full font-semibold shadow hover:bg-green-700 hover:scale-105 transition-transform text-lg mt-6",
+                                    children: "Admin 1"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/pages/contact.js",
+                                    lineNumber: 38,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
+                                    href: "https://wa.me/6281234567890",
+                                    target: "_blank",
+                                    rel: "noopener noreferrer",
+                                    className: " inline-block bg-green-600 text-white px-7 py-3 rounded-full font-semibold shadow hover:bg-green-700 hover:scale-105 transition-transform text-lg mt-6",
+                                    children: "Admin 2"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/pages/contact.js",
+                                    lineNumber: 46,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/src/pages/contact.js",
-                            lineNumber: 33,
+                            lineNumber: 37,
                             columnNumber: 11
                         }, this)
                     ]
@@ -150,7 +188,7 @@ function ContactPage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/contact.js",
-                lineNumber: 43,
+                lineNumber: 57,
                 columnNumber: 7
             }, this)
         ]

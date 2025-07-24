@@ -14,36 +14,16 @@ function ProductCard({ product }) {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                 className: "relative",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
-                        src: product.image_url || "https://source.unsplash.com/400x300/?vegetable",
-                        alt: product.name,
-                        className: "h-44 w-full object-cover transition-transform duration-300 group-hover:scale-105"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/ProductCard.js",
-                        lineNumber: 5,
-                        columnNumber: 9
-                    }, this),
-                    product.stock === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                        className: "absolute top-3 left-3 bg-red-600 text-white text-xs px-3 py-1 rounded-full shadow",
-                        children: "Habis"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/ProductCard.js",
-                        lineNumber: 11,
-                        columnNumber: 11
-                    }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                        className: "absolute top-3 left-3 bg-green-600 text-white text-xs px-3 py-1 rounded-full shadow",
-                        children: [
-                            "Stok ",
-                            product.stock
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/ProductCard.js",
-                        lineNumber: 15,
-                        columnNumber: 11
-                    }, this)
-                ]
-            }, void 0, true, {
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
+                    src: product.image_url || "https://source.unsplash.com/400x300/?vegetable",
+                    alt: product.name,
+                    className: "h-44 w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/ProductCard.js",
+                    lineNumber: 5,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
                 fileName: "[project]/src/components/ProductCard.js",
                 lineNumber: 4,
                 columnNumber: 7
@@ -56,50 +36,20 @@ function ProductCard({ product }) {
                         children: product.name
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProductCard.js",
-                        lineNumber: 21,
+                        lineNumber: 12,
                         columnNumber: 9
-                    }, this),
-                    product.description && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                        className: "text-sm text-gray-600 mb-2",
-                        children: product.description
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/ProductCard.js",
-                        lineNumber: 23,
-                        columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        className: "flex items-center justify-between",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                            className: "inline-block bg-green-100 text-green-800 text-base font-bold px-3 py-1 rounded-lg mb-2",
-                            children: [
-                                "Rp ",
-                                Number(product.price).toLocaleString("id-ID")
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/components/ProductCard.js",
-                            lineNumber: 26,
-                            columnNumber: 11
-                        }, this)
+                        className: "flex items-center justify-between"
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProductCard.js",
-                        lineNumber: 25,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
-                        href: `https://wa.me/6281234567890?text=Saya ingin memesan ${encodeURIComponent(product.name)}`,
-                        target: "_blank",
-                        rel: "noopener noreferrer",
-                        className: "block text-center mt-3 bg-green-600 text-white py-2 rounded-full font-semibold shadow hover:bg-green-700 hover:scale-105 transition-transform",
-                        children: "Pesan via WhatsApp"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/ProductCard.js",
-                        lineNumber: 30,
+                        lineNumber: 13,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ProductCard.js",
-                lineNumber: 20,
+                lineNumber: 11,
                 columnNumber: 7
             }, this)
         ]

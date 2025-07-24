@@ -1,6 +1,7 @@
 globalThis.__BUILD_MANIFEST = {
   "pages": {
     "/": [
+      "static/chunks/[root-of-the-server]__fad90407._.js",
       "static/chunks/node_modules_next_dist_compiled_next-devtools_index_82a36480.js",
       "static/chunks/node_modules_next_dist_compiled_ca41998d._.js",
       "static/chunks/node_modules_next_dist_shared_lib_8a332167._.js",
@@ -8,12 +9,13 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/node_modules_next_dist_a3e9a08f._.js",
       "static/chunks/node_modules_next_9c8728f4._.js",
       "static/chunks/node_modules_react-dom_82bb97c6._.js",
+      "static/chunks/node_modules_react-icons_fi_index_mjs_73949438._.js",
       "static/chunks/node_modules_react-icons_fa_index_mjs_bad01e3f._.js",
       "static/chunks/node_modules_react-icons_lib_75a63dfe._.js",
-      "static/chunks/node_modules_a80c7711._.js",
-      "static/chunks/[root-of-the-server]__6f8ae951._.js",
+      "static/chunks/node_modules_ef04e409._.js",
+      "static/chunks/node_modules_keen-slider_keen-slider_min_33803dcc.css",
       "static/chunks/src_pages_index_5771e187._.js",
-      "static/chunks/src_pages_index_7a2cee16._.js"
+      "static/chunks/src_pages_index_43ebe0d7._.js"
     ],
     "/404": [
       "static/chunks/node_modules_next_dist_compiled_next-devtools_index_82a36480.js",
@@ -30,19 +32,66 @@ globalThis.__BUILD_MANIFEST = {
     ],
     "/_app": [
       "static/chunks/node_modules_next_dist_compiled_next-devtools_index_82a36480.js",
+      "static/chunks/node_modules_next_dist_compiled_baae6b8f._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_8a332167._.js",
+      "static/chunks/node_modules_next_dist_client_c0365516._.js",
+      "static/chunks/node_modules_next_dist_a3e9a08f._.js",
+      "static/chunks/node_modules_next_26beea32._.js",
+      "static/chunks/node_modules_react-dom_82bb97c6._.js",
+      "static/chunks/node_modules_react-icons_fi_index_mjs_73949438._.js",
+      "static/chunks/node_modules_react-icons_fa_index_mjs_bad01e3f._.js",
+      "static/chunks/node_modules_react-icons_lib_75a63dfe._.js",
+      "static/chunks/node_modules_53f89b01._.js",
+      "static/chunks/[root-of-the-server]__8ebd85d4._.js",
+      "static/chunks/src_styles_globals_4738091e.css",
+      "static/chunks/src_pages__app_5771e187._.js",
+      "static/chunks/src_pages__app_f9374f95._.js"
+    ],
+    "/_error": [
+      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_82a36480.js",
+      "static/chunks/node_modules_next_dist_compiled_ca41998d._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_3cbd5cc2._.js",
+      "static/chunks/node_modules_next_dist_client_becf32a6._.js",
+      "static/chunks/node_modules_next_dist_7c4b9b2a._.js",
+      "static/chunks/node_modules_next_error_8c8bf619.js",
+      "static/chunks/[next]_entry_page-loader_ts_8ccf5f86._.js",
+      "static/chunks/node_modules_react-dom_82bb97c6._.js",
+      "static/chunks/node_modules_f2979c3a._.js",
+      "static/chunks/[root-of-the-server]__c194513e._.js",
+      "static/chunks/src_pages__error_5771e187._.js",
+      "static/chunks/src_pages__error_21a636e5._.js"
+    ],
+    "/company-profile": [
+      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_82a36480.js",
       "static/chunks/node_modules_next_dist_compiled_ca41998d._.js",
       "static/chunks/node_modules_next_dist_shared_lib_8a332167._.js",
       "static/chunks/node_modules_next_dist_client_c0365516._.js",
       "static/chunks/node_modules_next_dist_a3e9a08f._.js",
       "static/chunks/node_modules_next_9c8728f4._.js",
       "static/chunks/node_modules_react-dom_82bb97c6._.js",
+      "static/chunks/node_modules_react-icons_fi_index_mjs_73949438._.js",
       "static/chunks/node_modules_react-icons_fa_index_mjs_bad01e3f._.js",
       "static/chunks/node_modules_react-icons_lib_75a63dfe._.js",
       "static/chunks/node_modules_a80c7711._.js",
-      "static/chunks/[root-of-the-server]__81ca57e3._.js",
-      "static/chunks/src_styles_globals_4738091e.css",
-      "static/chunks/src_pages__app_5771e187._.js",
-      "static/chunks/src_pages__app_38d7e668._.js"
+      "static/chunks/[root-of-the-server]__ff8b4880._.js",
+      "static/chunks/src_pages_company-profile_5771e187._.js",
+      "static/chunks/src_pages_company-profile_edc5aee6._.js"
+    ],
+    "/contact": [
+      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_82a36480.js",
+      "static/chunks/node_modules_next_dist_compiled_ca41998d._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_8a332167._.js",
+      "static/chunks/node_modules_next_dist_client_c0365516._.js",
+      "static/chunks/node_modules_next_dist_a3e9a08f._.js",
+      "static/chunks/node_modules_next_9c8728f4._.js",
+      "static/chunks/node_modules_react-dom_82bb97c6._.js",
+      "static/chunks/node_modules_react-icons_fi_index_mjs_73949438._.js",
+      "static/chunks/node_modules_react-icons_fa_index_mjs_bad01e3f._.js",
+      "static/chunks/node_modules_react-icons_lib_75a63dfe._.js",
+      "static/chunks/node_modules_a80c7711._.js",
+      "static/chunks/[root-of-the-server]__c1b9bc65._.js",
+      "static/chunks/src_pages_contact_5771e187._.js",
+      "static/chunks/src_pages_contact_f95e4768._.js"
     ],
     "/faq": [
       "static/chunks/node_modules_next_dist_compiled_next-devtools_index_82a36480.js",
@@ -52,12 +101,29 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/node_modules_next_dist_a3e9a08f._.js",
       "static/chunks/node_modules_next_9c8728f4._.js",
       "static/chunks/node_modules_react-dom_82bb97c6._.js",
+      "static/chunks/node_modules_react-icons_fi_index_mjs_73949438._.js",
       "static/chunks/node_modules_react-icons_fa_index_mjs_bad01e3f._.js",
       "static/chunks/node_modules_react-icons_lib_75a63dfe._.js",
       "static/chunks/node_modules_a80c7711._.js",
       "static/chunks/[root-of-the-server]__6cdbcf8c._.js",
       "static/chunks/src_pages_faq_5771e187._.js",
-      "static/chunks/src_pages_faq_f6e88216._.js"
+      "static/chunks/src_pages_faq_900becdb._.js"
+    ],
+    "/jangkauan-pengiriman": [
+      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_82a36480.js",
+      "static/chunks/node_modules_next_dist_compiled_ca41998d._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_8a332167._.js",
+      "static/chunks/node_modules_next_dist_client_c0365516._.js",
+      "static/chunks/node_modules_next_dist_a3e9a08f._.js",
+      "static/chunks/node_modules_next_9c8728f4._.js",
+      "static/chunks/node_modules_react-dom_82bb97c6._.js",
+      "static/chunks/node_modules_react-icons_fi_index_mjs_73949438._.js",
+      "static/chunks/node_modules_react-icons_fa_index_mjs_bad01e3f._.js",
+      "static/chunks/node_modules_react-icons_lib_75a63dfe._.js",
+      "static/chunks/node_modules_a80c7711._.js",
+      "static/chunks/[root-of-the-server]__b67cbeb0._.js",
+      "static/chunks/src_pages_jangkauan-pengiriman_5771e187._.js",
+      "static/chunks/src_pages_jangkauan-pengiriman_5524f70a._.js"
     ],
     "/product": [
       "static/chunks/node_modules_next_dist_compiled_next-devtools_index_82a36480.js",
@@ -67,12 +133,29 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/node_modules_next_dist_a3e9a08f._.js",
       "static/chunks/node_modules_next_9c8728f4._.js",
       "static/chunks/node_modules_react-dom_82bb97c6._.js",
+      "static/chunks/node_modules_react-icons_fi_index_mjs_73949438._.js",
       "static/chunks/node_modules_react-icons_fa_index_mjs_bad01e3f._.js",
       "static/chunks/node_modules_react-icons_lib_75a63dfe._.js",
       "static/chunks/node_modules_a80c7711._.js",
       "static/chunks/[root-of-the-server]__8c33a117._.js",
       "static/chunks/src_pages_product_5771e187._.js",
-      "static/chunks/src_pages_product_c367b6b9._.js"
+      "static/chunks/src_pages_product_874036ea._.js"
+    ],
+    "/terms": [
+      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_82a36480.js",
+      "static/chunks/node_modules_next_dist_compiled_ca41998d._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_8a332167._.js",
+      "static/chunks/node_modules_next_dist_client_c0365516._.js",
+      "static/chunks/node_modules_next_dist_a3e9a08f._.js",
+      "static/chunks/node_modules_next_9c8728f4._.js",
+      "static/chunks/node_modules_react-dom_82bb97c6._.js",
+      "static/chunks/node_modules_react-icons_fi_index_mjs_73949438._.js",
+      "static/chunks/node_modules_react-icons_fa_index_mjs_bad01e3f._.js",
+      "static/chunks/node_modules_react-icons_lib_75a63dfe._.js",
+      "static/chunks/node_modules_a80c7711._.js",
+      "static/chunks/[root-of-the-server]__661cfbfa._.js",
+      "static/chunks/src_pages_terms_5771e187._.js",
+      "static/chunks/src_pages_terms_1c11f437._.js"
     ]
   },
   "devFiles": [],

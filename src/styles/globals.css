@@ -62,15 +62,18 @@ input, textarea, select {
   transform: translateY(-7.5px) rotate(-45deg);
 }
 
-/* Enhanced navbar animations */
-.navbar-blur {
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+@keyframes wiggleUpDown {
+  0%, 100% { transform: translateY(0);}
+  50% { transform: translateY(-22px);}
+}
+.animate-wiggle {
+  animation: wiggleUpDown 3.5s ease-in-out infinite;
+}
+@keyframes wiggleLeftRight {
+  0%, 100% { transform: translateX(0);}
+  50% { transform: translateX(20px);}
+}
+.animate-wiggle-x {
+  animation: wiggleLeftRight 4.2s ease-in-out infinite;
 }
 
-@media (max-width: 480px) {
-  .max-w-6xl, .max-w-5xl, .max-w-3xl, .max-w-2xl, .max-w-xl {
-    padding-left: 8px;
-    padding-right: 8px;
-  }
-}

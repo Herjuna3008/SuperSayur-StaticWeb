@@ -1,10 +1,15 @@
-export default function LoadingSpinner({ text = "Memuat..." }) {
-    return (
-      <div className="flex flex-col items-center justify-center min-h-[300px] py-10 animate-fadeIn">
-        {/* Spinner */}
-        <div className="w-14 h-14 border-4 border-green-500 border-t-transparent rounded-full animate-spin mb-4"></div>
-        <div className="text-green-700 font-semibold text-lg">{text}</div>
-      </div>
-    );
-  }
-  
+import Loader from "./Loader";
+
+export default function LoadingOverlay({ show = false, children }) {
+  return (
+    <div className="relative">
+      {children}
+      {show && (
+        <div className="fixed inset-0 bg-white bg-opacity-70 flex flex-col items-center justify-center z-[1200] transition-all">
+          <Loader />
+          <div className="mt-5 text-green-700 text-lg font-semibold animate-pulse">Sedang memuat...</div>
+        </div>
+      )}
+    </div>
+  );
+}

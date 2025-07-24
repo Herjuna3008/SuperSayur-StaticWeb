@@ -22,6 +22,10 @@ export default function ContactPage() {
               <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" className="text-green-700 hover:underline">
                 +62 812-3456-7890
               </a>
+              <a> & </a>
+              <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" className="text-green-700 hover:underline">
+                +62 812-3456-7890
+              </a>
             </div>
             <div>
               <span className="font-bold">Email: </span>
@@ -30,14 +34,24 @@ export default function ContactPage() {
               </a>
             </div>
           </div>
-          <a
-            href="https://wa.me/6281234567890"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-green-600 text-white px-7 py-3 rounded-full font-semibold shadow hover:bg-green-700 hover:scale-105 transition-transform text-lg mt-6"
-          >
-            Hubungi via WhatsApp
-          </a>
+          <div className="flex space-x-4">
+            <a
+              href="https://wa.me/6281234567890"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-green-600 text-white px-7 py-3 rounded-full font-semibold shadow hover:bg-green-700 hover:scale-105 transition-transform text-lg mt-6"
+            >
+              Admin 1
+            </a>
+            <a
+              href="https://wa.me/6281234567890"
+              target="_blank"
+              rel="noopener noreferrer"
+              className=" inline-block bg-green-600 text-white px-7 py-3 rounded-full font-semibold shadow hover:bg-green-700 hover:scale-105 transition-transform text-lg mt-6"
+            >
+              Admin 2
+            </a>
+          </div>
         </section>
       </main>
       <Footer />
