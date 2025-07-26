@@ -19,12 +19,12 @@ export default function ContactPage() {
             </div>
             <div>
               <span className="font-bold">Telepon/WhatsApp: </span>
-              <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" className="text-green-700 hover:underline">
-                +62 812-3456-7890
+              <a href="https://wa.me/6281291564078" target="_blank" rel="noopener noreferrer" className="text-green-700 hover:underline">
+              +6281291564078
               </a>
               <a> & </a>
-              <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" className="text-green-700 hover:underline">
-                +62 812-3456-7890
+              <a href="https://wa.me/6287855233489" target="_blank" rel="noopener noreferrer" className="text-green-700 hover:underline">
+              +6287855233489
               </a>
             </div>
             <div>
@@ -36,7 +36,7 @@ export default function ContactPage() {
           </div>
           <div className="flex space-x-4">
             <a
-              href="https://wa.me/6281234567890"
+              href="https://wa.me/6281291564078"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-green-600 text-white px-7 py-3 rounded-full font-semibold shadow hover:bg-green-700 hover:scale-105 transition-transform text-lg mt-6"
@@ -44,7 +44,7 @@ export default function ContactPage() {
               Admin 1
             </a>
             <a
-              href="https://wa.me/6281234567890"
+              href="https://wa.me/6287855233489"
               target="_blank"
               rel="noopener noreferrer"
               className=" inline-block bg-green-600 text-white px-7 py-3 rounded-full font-semibold shadow hover:bg-green-700 hover:scale-105 transition-transform text-lg mt-6"

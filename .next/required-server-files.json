@@ -46,8 +46,8 @@
         256,
         384
       ],
-      "path": "/_next/image",
-      "loader": "default",
+      "path": "/",
+      "loader": "akamai",
       "loaderFile": "",
       "domains": [],
       "disableStaticImages": false,
@@ -97,7 +97,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/home/user/Static-Web/SuperSayur-Web",
+    "outputFileTracingRoot": "/home/user/Static-Web",
     "experimental": {
       "useSkewCookie": false,
       "nodeMiddleware": false,
@@ -287,10 +287,10 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.mjs",
     "turbopack": {
-      "root": "/home/user/Static-Web/SuperSayur-Web"
+      "root": "/home/user/Static-Web"
     }
   },
-  "appDir": "/home/user/Static-Web/SuperSayur-Web",
+  "appDir": "/home/user/Static-Web",
   "relativeAppDir": "",
   "files": [
     ".next/routes-manifest.json",

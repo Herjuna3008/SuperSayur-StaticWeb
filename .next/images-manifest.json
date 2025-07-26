@@ -21,8 +21,8 @@
       256,
       384
     ],
-    "path": "/_next/image",
-    "loader": "default",
+    "path": "/",
+    "loader": "akamai",
     "loaderFile": "",
     "domains": [],
     "disableStaticImages": false,

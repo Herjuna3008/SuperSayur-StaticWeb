@@ -33,7 +33,7 @@ export default function App({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#16a34a" />
         <meta name="description" content="Supplier Sayur & Daging Segar | SuperSayur" />
-        <link rel="icon" href="@/public/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* Untuk efek transisi halaman, bisa tambah animasi di container */}
       <LoadingOverlay show={loading}>

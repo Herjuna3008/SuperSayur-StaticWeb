@@ -79,11 +79,11 @@ function ContactPage() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
-                                            href: "https://wa.me/6281234567890",
+                                            href: "https://wa.me/6281291564078",
                                             target: "_blank",
                                             rel: "noopener noreferrer",
                                             className: "text-green-700 hover:underline",
-                                            children: "+62 812-3456-7890"
+                                            children: "+6281291564078"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/contact.js",
                                             lineNumber: 22,
@@ -97,11 +97,11 @@ function ContactPage() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
-                                            href: "https://wa.me/6281234567890",
+                                            href: "https://wa.me/6287855233489",
                                             target: "_blank",
                                             rel: "noopener noreferrer",
                                             className: "text-green-700 hover:underline",
-                                            children: "+62 812-3456-7890"
+                                            children: "+6287855233489"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/contact.js",
                                             lineNumber: 26,
@@ -148,7 +148,7 @@ function ContactPage() {
                             className: "flex space-x-4",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
-                                    href: "https://wa.me/6281234567890",
+                                    href: "https://wa.me/6281291564078",
                                     target: "_blank",
                                     rel: "noopener noreferrer",
                                     className: "inline-block bg-green-600 text-white px-7 py-3 rounded-full font-semibold shadow hover:bg-green-700 hover:scale-105 transition-transform text-lg mt-6",
@@ -159,7 +159,7 @@ function ContactPage() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
-                                    href: "https://wa.me/6281234567890",
+                                    href: "https://wa.me/6287855233489",
                                     target: "_blank",
                                     rel: "noopener noreferrer",
                                     className: " inline-block bg-green-600 text-white px-7 py-3 rounded-full font-semibold shadow hover:bg-green-700 hover:scale-105 transition-transform text-lg mt-6",

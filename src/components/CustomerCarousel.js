@@ -35,7 +35,7 @@ export default function CustomerCarousel({ customers }) {
   return (
     <div className="w-full py-8">
       <h3 className="text-xl font-bold text-center mb-6">
-        Telah Dipercaya lebih dari 1 Dekade Menemani 160.000++ Pelanggan
+        Telah Dipercaya lebih dari 1 Dekade Menemani 1.000++ Pelanggan
       </h3>
       <div className="relative">
         {/* Left Button */}

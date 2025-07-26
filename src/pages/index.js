@@ -5,6 +5,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CustomerCarousel from "@/components/CustomerCarousel";
 import TiltImage from "@/components/TiltImage";
+import ReviewCarousel from "@/components/ReviewCarousel";
+import AnimatedSection from "@/components/AnimatedSection";
 
 const heroImages = [
   "https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1074&auto=format&fit=crop",
@@ -13,16 +15,14 @@ const heroImages = [
 
 const categories = [
   { name: "Sayur", icon: "https://cdn0.iconfinder.com/data/icons/goofy-international-food-color/96/Salad-512.png" },
-  { name: "Daging", icon: "https://cdn0.iconfinder.com/data/icons/weight-loss-1/64/meat-protein-keto_diet-ketogenic_diet-beef-poultry-bacon-512.png" },
-  { name: "Buah", icon: "https://cdn1.iconfinder.com/data/icons/international-day-of-yoga-bzzricon-color-omission/512/17_Healthy_Food-512.png" },
-  { name: "Rempah", icon: "https://cdn2.iconfinder.com/data/icons/cooking-49/64/Grind-spice-seasoning-ingredient-mortar-1024.png" },
+  { name: "Daging Ayam", icon: "https://cdn0.iconfinder.com/data/icons/weight-loss-1/64/meat-protein-keto_diet-ketogenic_diet-beef-poultry-bacon-512.png" },
   { name: "Seafood", icon: "https://cdn1.iconfinder.com/data/icons/animal-kingdom-vol-2/512/catship_carp_fish_seafood-1024.png" }
 ];
 
 const customers = [
   {
     name: "McDonald's",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/1200px-McDonald%27s_Golden_Arches.svg.png"
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/1200px-McDonald%27s_Golden_Arches.png"
   },
   {
     name: "Sambel Bakar Iben",
@@ -84,7 +84,7 @@ export default function Home() {
               Supplier Sayur & Daging Segar untuk Bisnis Anda
             </p>
             <Link
-              href="/products"
+              href="/contact"
               className="px-6 py-3 bg-green-600 rounded-full font-semibold hover:bg-green-700 transition shadow"
             >
               Belanja Sekarang
@@ -93,18 +93,18 @@ export default function Home() {
         </section>
 
         {/* KEUNGGULAN */}
-        <section className="max-w-6xl mx-auto px-4 relative">
+        <AnimatedSection effect="up" className="max-w-6xl mx-auto px-4 relative">
           {/* Asset animasi */}
           <img
             src="https://png.pngtree.com/png-clipart/20241024/original/pngtree-hyper-realistic-broccoli-rabe-rapini-transparent-background-png-image_16480964.png"
             alt=""
-            className="absolute left-0 bottom-0 w-25 h-25 opacity-60 pointer-events-none animate-wiggle"
+            className="absolute -left-10 -bottom-10 w-25 h-25 opacity-60 pointer-events-none animate-wiggle"
             style={{ zIndex: 0 }}
           />
           <img
             src="https://cdn.pixabay.com/photo/2017/02/01/18/29/pimento-2031006_1280.png"
             alt=""
-            className="absolute right-8 top-10 w-25 h-25 opacity-70 pointer-events-none animate-wiggle-x"
+            className="absolute right-4 top-4 w-25 h-25 opacity-70 pointer-events-none animate-wiggle-x"
             style={{ zIndex: 0 }}
           />
           <h2 className="text-2xl md:text-3xl font-bold text-green-700 text-center mb-10 animate-fadeIn">
@@ -133,10 +133,10 @@ export default function Home() {
               </p>
             </div>
           </div>
-        </section>
+        </AnimatedSection>
 
         {/* MENYEDIAKAN PRODUK */}
-        <section className="bg-gray-50 py-16 relative overflow-hidden">
+        <AnimatedSection effect="fade" className="bg-gray-50 py-16 relative overflow-hidden">
           {/* asset animasi */}
           <img
             src="https://wallpapers.com/images/hd/vibrant-green-palm-leaf-png-hssxbc5zjjtjz7us.jpg"
@@ -151,74 +151,76 @@ export default function Home() {
             style={{ zIndex: 0 }}
           />
           <div className="max-w-6xl mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-8">Menyediakan Produk</h2>
-            <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+            <h2 className="text-3xl font-bold text-center mb-8 z-50">Menyediakan Produk</h2>
+            <div className="grid sm:grid-cols-2 place-content-center md:grid-cols-3 gap-6">
               {categories.map((c, i) => (
-                <Link
-                  key={i}
-                  href="/product"
-                  className="group"
-                  style={{ display: "block", zIndex: 10 }}
-                >
-                  <button
-                    type="button"
-                    tabIndex={0}
-                    className="w-full flex flex-col items-center bg-white p-4 rounded-lg shadow hover:scale-105 transition cursor-pointer"
-                    style={
-                      hoveredIdx === i
-                        ? {
-                          outline: `4px solid ${outlineColor}`,
-                          outlineOffset: "3px",
-                          transition: "outline-color 0.2s"
-                        }
-                        : { outline: "4px solid transparent", outlineOffset: "3px" }
-                    }
-                    onMouseEnter={() => {
-                      setHoveredIdx(i);
-                      setOutlineColor(getRandomPastelColor());
-                    }}
-                    onMouseLeave={() => setHoveredIdx(null)}
+                <AnimatedSection key={i} effect="up" delay={i * 0.10}>
+                  <Link
+                    key={i}
+                    href="/product"
+                    className="group"
+                    style={{ display: "block", zIndex: 10 }}
                   >
-                    <img src={c.icon} alt={c.name} className="w-16 h-16 mb-4" />
-                    <span className="font-medium">{c.name}</span>
-                  </button>
-                </Link>
+                    <button
+                      type="button"
+                      tabIndex={0}
+                      className="w-full flex flex-col items-center bg-white p-4 rounded-lg shadow hover:scale-105 transition cursor-pointer"
+                      style={
+                        hoveredIdx === i
+                          ? {
+                            outline: `4px solid ${outlineColor}`,
+                            outlineOffset: "3px",
+                            transition: "outline-color 0.2s"
+                          }
+                          : { outline: "4px solid transparent", outlineOffset: "3px" }
+                      }
+                      onMouseEnter={() => {
+                        setHoveredIdx(i);
+                        setOutlineColor(getRandomPastelColor());
+                      }}
+                      onMouseLeave={() => setHoveredIdx(null)}
+                    >
+                      <img src={c.icon} alt={c.name} className="w-16 h-16 mb-4" />
+                      <span className="font-medium">{c.name}</span>
+                    </button>
+                  </Link>
+                </AnimatedSection>
               ))}
             </div>
           </div>
-        </section>
+        </AnimatedSection>
 
         {/* COMPANY PROFILE SINGKAT */}
-        <section className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center gap-8 py-16">
-        <div className="md:w-1/2 text-center md:text-left space-y-4">
-          <h2 className="text-3xl font-bold">Tentang SuperSayur</h2>
-          <p className="text-gray-700">
-            SuperSayur adalah pemasok sayur dan daging segar terpercaya sejak 2023, melayani kebutuhan restoran,
-            hotel, dan bisnis skala besar dengan kualitas terjamin.
-          </p>
-          <Link href="/company-profile" className="px-5 py-2 bg-green-600 text-white rounded-full hover:bg-green-700 transition">
-            Lebih Lanjut
-          </Link>
-        </div>
-        <div className="md:w-1/2">
-        <TiltImage
+        <AnimatedSection effect="left" className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center gap-8 py-16">
+          <div className="md:w-1/2 text-center md:text-left space-y-4">
+            <div className="text-3xl font-bold">Tentang SuperSayur</div>
+            <p className="text-gray-700">
+              SuperSayur adalah pemasok sayur dan daging segar terpercaya sejak 2023, melayani kebutuhan restoran,
+              hotel, dan bisnis skala besar dengan kualitas terjamin.
+            </p>
+            <Link href="/company-profile" className="px-5 py-2 bg-green-600 text-white font-semibold rounded-full hover:bg-green-700 transition">
+              Lebih Lanjut
+            </Link>
+          </div>
+          <div className="md:w-1/2">
+            <TiltImage
               src="https://images.unsplash.com/photo-1562147529-1f05d6533ceb?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Company Profile"
               className=" mx-auto"
             />
-        </div>
-      </section>
+          </div>
+        </AnimatedSection>
 
 
         {/* PENGANTARAN SINGKAT */}
-        <section className="bg-gray-50 py-16 relative overflow-hidden">
+        <AnimatedSection effect="right" className="bg-gray-50 py-16 relative overflow-hidden">
           <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center gap-8">
             <div className="md:w-1/2">
-            <TiltImage
-              src="https://images.unsplash.com/photo-1627019866926-b6030ff785fe?q=80&w=1170&auto=format&fit=crop"
-              alt="Company Profile"
-              className="mx-auto"
-            />
+              <TiltImage
+                src="https://images.unsplash.com/photo-1627019866926-b6030ff785fe?q=80&w=1170&auto=format&fit=crop"
+                alt="Company Profile"
+                className="mx-auto"
+              />
             </div>
             <div className="md:w-1/2 space-y-4 text-center md:text-left">
               <h2 className="text-3xl font-bold">Sistem Pengantaran Kami</h2>
@@ -234,25 +236,28 @@ export default function Home() {
               </Link>
             </div>
           </div>
-        </section>
+        </AnimatedSection>
 
         {/* OUR CUSTOMER */}
-        <section className="max-w-6xl mx-auto px-4 py-16 relative">
+        <AnimatedSection effect="up" className="max-w-6xl mx-auto px-4 py-16 relative">
           <h2 className="text-[50px] font-bold text-center mb-8">Our Customers</h2>
           <CustomerCarousel customers={customers} />
           <div className="mt-12 text-center space-y-2">
-            {/* Widget review (example elfsight) */}
-            <script src="https://static.elfsight.com/platform/platform.js" async></script>
-            <div className="elfsight-app-df8b914e-733a-48bf-8072-89158bcb9670" data-elfsight-app-lazy></div>
+            <ReviewCarousel />
           </div>
-        </section>
+        </AnimatedSection>
 
-        {/* FAQ Section */}
-        <section className="py-16 bg-gray-50 relative overflow-hidden">
+        {/* FAQ AnimatedSection */}
+        <AnimatedSection effect="fade" className="py-16 bg-gray-50 relative overflow-hidden">
           <img
             src="https://i.postimg.cc/qR1Z1Xzy/Layer-Side1.png"
             alt="Asset"
             className="absolute right-0 top-5 h-75 opacity-40 pointer-events-none animate-wiggle"
+          />
+          <img
+            src="https://i.postimg.cc/NMz7dK0Y/Asset-4-300x.png"
+            alt="Asset"
+            className="absolute left-0 bottom-0 h-40 opacity-40 pointer-events-none animate-wiggle-x rotate-20 grayscale"
           />
           <div className="max-w-5xl mx-auto px-4">
             <h2 className="text-2xl md:text-3xl font-bold text-green-700 text-center mb-10 animate-fadeIn">
@@ -268,7 +273,7 @@ export default function Home() {
               </Link>
             </div>
           </div>
-        </section>
+        </AnimatedSection>
       </div>
       <Footer />
     </>

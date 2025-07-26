@@ -27,7 +27,7 @@ export default function Navbar() {
       {/* Bar Atas */}
       <div className="w-full bg-white flex justify-between items-center px-6 py-4 shadow-sm z-40">
         <div className="flex items-center gap-3">
-          <img src="/logo.png" alt="Logo" className="h-10 w-auto" />
+          <img src="https://i.postimg.cc/4NJNWBrf/Logo-Super-Sayur-300x.png" alt="Logo" className="h-10 w-auto" />
           <Link
             href="/"
             className="text-2xl font-bold tracking-tight text-green-700 whitespace-nowrap hover:text-green-600 transition-colors duration-200"
