@@ -21,29 +21,17 @@ const categories = [
 
 const customers = [
   {
-    name: "McDonald's",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/1200px-McDonald%27s_Golden_Arches.png"
+    name: "BOXMIE",
+    logo: "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1.aliyuncs.com/company-logo/125139095b2ccecdc167c341c52c774d.jpg"
   },
   {
-    name: "Sambel Bakar Iben",
-    logo: "https://static.wixstatic.com/media/92f9ae_76ab3002b73c453b9e43f25d7a44250c~mv2.png"
+    name: "Bakpao Legend Baozi",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRje52oDVLpynwUpaUgcFsk54Ns2qTvntviGA&s"
   },
   {
-    name: "Bebek Carok",
-    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQudpnW9RrcG_BRV4sckcpTzvUXHauLsCTD2g&s"
+    name: "SeiDjiwa",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIMBGw6d8GdlNpOpNRnIgSuJKnrFPJ8ulYfg&s"
   },
-  {
-    name: "Waroeng Steak & Shake",
-    logo: "https://i.pinimg.com/736x/8a/3a/34/8a3a346a9325b36641115e1bd0ea1a7a.jpg"
-  },
-  {
-    name: "Janji Jiwa",
-    logo: "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/105f3f2b-06d2-4d6d-907f-ff30fdcf2216_brand-logo_1698896753190.jpg"
-  },
-  {
-    name: "PT Indofood Sukses Makmur Tbk",
-    logo: "https://images.seeklogo.com/logo-png/29/1/indofood-logo-png_seeklogo-298884.png"
-  }
 ];
 
 export default function Home() {
@@ -195,7 +183,7 @@ export default function Home() {
           <div className="md:w-1/2 text-center md:text-left space-y-4">
             <div className="text-3xl font-bold">Tentang SuperSayur</div>
             <p className="text-gray-700">
-              SuperSayur adalah pemasok sayur dan daging segar terpercaya sejak 2023, melayani kebutuhan restoran,
+              SuperSayur adalah pemasok sayur dan daging segar terpercaya sejak 2004, melayani kebutuhan restoran,
               hotel, dan bisnis skala besar dengan kualitas terjamin.
             </p>
             <Link href="/company-profile" className="px-5 py-2 bg-green-600 text-white font-semibold rounded-full hover:bg-green-700 transition">
@@ -204,8 +192,8 @@ export default function Home() {
           </div>
           <div className="md:w-1/2">
             <TiltImage
-              src="https://images.unsplash.com/photo-1562147529-1f05d6533ceb?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt="Company Profile"
+              src="https://ik.imagekit.io/hexocdn/ChatGPT%20Image%20Jul%2027,%202025,%2005_13_59%20AM.png?updatedAt=1753571168863"
+              alt="SuperSayur Company Profile"
               className=" mx-auto"
             />
           </div>
@@ -217,16 +205,16 @@ export default function Home() {
           <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center gap-8">
             <div className="md:w-1/2">
               <TiltImage
-                src="https://images.unsplash.com/photo-1627019866926-b6030ff785fe?q=80&w=1170&auto=format&fit=crop"
-                alt="Company Profile"
+                src="https://ik.imagekit.io/hexocdn/ChatGPT%20Image%20Jul%2027,%202025,%2005_25_38%20AM.png?updatedAt=1753571168672"
+                alt="SuperSayur Delivery"
                 className="mx-auto"
               />
             </div>
             <div className="md:w-1/2 space-y-4 text-center md:text-left">
               <h2 className="text-3xl font-bold">Sistem Pengantaran Kami</h2>
               <p className="text-gray-700">
-                Kami melayani Jakarta, Depok, Tangerang, Bekasi setiap hari pukul 06:00–22:00. Pesanan
-                sebelum jam 17:00 dikirim hari yang sama.
+                Kami melayani Jakarta, Depok, Tangerang, Bekasi setiap hari pukul 09:00–17:00. Pesanan
+                dilakukan setelah melakukan Pre-Order terlebih dahulu dan dikirim 1 hari setelah pemesanan.
               </p>
               <p className="text-gray-500 text-[14px]">
                 Syarat dan ketentuan berlaku*
@@ -255,7 +243,7 @@ export default function Home() {
             className="absolute right-0 top-5 h-75 opacity-40 pointer-events-none animate-wiggle"
           />
           <img
-            src="https://i.postimg.cc/NMz7dK0Y/Asset-4-300x.png"
+            src="https://ik.imagekit.io/hexocdn/Asset%204@300x.png?updatedAt=1753571167158"
             alt="Asset"
             className="absolute left-0 bottom-0 h-40 opacity-40 pointer-events-none animate-wiggle-x rotate-20 grayscale"
           />

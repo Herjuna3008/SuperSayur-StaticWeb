@@ -124,9 +124,9 @@ function ContactPage() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
-                                            href: "mailto:info@pasarsegarsupplier.com",
+                                            href: "mailto:supersayur5@gmail.com",
                                             className: "text-green-700 hover:underline",
-                                            children: "info@SuperSayur.com"
+                                            children: "supersayur5@gmail.com"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/contact.js",
                                             lineNumber: 32,

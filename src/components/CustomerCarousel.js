@@ -7,11 +7,11 @@ export default function CustomerCarousel({ customers }) {
   const [sliderRef, instanceRef] = useKeenSlider({
     loop: true,
     slides: {
-      perView: 4,
+      perView: 3,
       spacing: 24,
     },
     breakpoints: {
-      "(max-width: 1024px)": { slides: { perView: 3, spacing: 12 } },
+      "(max-width: 1024px)": { slides: { perView: 3, spacing: 3 } },
       "(max-width: 640px)": { slides: { perView: 2, spacing: 6 } },
       "(max-width: 450px)": { slides: { perView: 1, spacing: 3 } },
     },

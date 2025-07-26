@@ -537,7 +537,7 @@ function Navbar() {
                         className: "flex items-center gap-3",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                src: "https://i.postimg.cc/4NJNWBrf/Logo-Super-Sayur-300x.png",
+                                src: "https://ik.imagekit.io/hexocdn/Logo%20Super%20Sayur@300x.png?updatedAt=1753571167387",
                                 alt: "Logo",
                                 className: "h-10 w-auto"
                             }, void 0, false, {
@@ -1159,16 +1159,28 @@ function CompanyProfile() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-                className: "min-h-screen bg-white py-16 animate-fadeIn",
+                className: "min-h-screen bg-white py-16",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                    className: "max-w-3xl mx-auto px-4",
+                    className: "max-w-3xl mx-auto px-4 ",
                     children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "absolute inset-0 bg-center bg-cover grayscale rotate-20 h-100 w-75",
+                            style: {
+                                backgroundImage: "url('https://ik.imagekit.io/hexocdn/Asset%204@300x.png?updatedAt=1753571167158')",
+                                opacity: 0.20,
+                                zIndex: 0
+                            }
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/company-profile.js",
+                            lineNumber: 14,
+                            columnNumber: 11
+                        }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                             className: "text-3xl md:text-4xl font-bold text-green-700 mb-6",
                             children: "Company Profile"
                         }, void 0, false, {
                             fileName: "[project]/src/pages/company-profile.js",
-                            lineNumber: 14,
+                            lineNumber: 22,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1179,14 +1191,14 @@ function CompanyProfile() {
                                     children: "SuperSayur"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/company-profile.js",
-                                    lineNumber: 16,
+                                    lineNumber: 24,
                                     columnNumber: 13
                                 }, this),
                                 " adalah supplier bahan pangan segar dan berkualitas, melayani kebutuhan hotel, restoran, café, UMKM, hingga rumah tangga dengan pengiriman cepat dan harga kompetitif."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/company-profile.js",
-                            lineNumber: 15,
+                            lineNumber: 23,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1196,14 +1208,14 @@ function CompanyProfile() {
                                     children: "Berdiri sejak 2004, kami telah bekerja sama dengan para petani lokal dan distributor utama untuk memastikan seluruh produk kami selalu segar dan aman konsumsi."
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/company-profile.js",
-                                    lineNumber: 19,
+                                    lineNumber: 27,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     children: "Visi kami adalah menjadi solusi utama untuk kebutuhan bahan baku makanan dalam skala besar maupun retail, dengan pelayanan yang profesional dan ramah."
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/company-profile.js",
-                                    lineNumber: 22,
+                                    lineNumber: 30,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1213,7 +1225,7 @@ function CompanyProfile() {
                                             children: "Nilai utama kami:"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/company-profile.js",
-                                            lineNumber: 26,
+                                            lineNumber: 34,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1223,46 +1235,46 @@ function CompanyProfile() {
                                                     children: "Produk berkualitas, selalu segar"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/company-profile.js",
-                                                    lineNumber: 28,
+                                                    lineNumber: 36,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     children: "Jangkauan pengiriman luas dan cepat"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/company-profile.js",
-                                                    lineNumber: 29,
+                                                    lineNumber: 37,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     children: "Harga bersaing dan transparan"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/company-profile.js",
-                                                    lineNumber: 30,
+                                                    lineNumber: 38,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     children: "Layanan pelanggan prioritas"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/company-profile.js",
-                                                    lineNumber: 31,
+                                                    lineNumber: 39,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/pages/company-profile.js",
-                                            lineNumber: 27,
+                                            lineNumber: 35,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/company-profile.js",
-                                    lineNumber: 25,
+                                    lineNumber: 33,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/company-profile.js",
-                            lineNumber: 18,
+                            lineNumber: 26,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1278,7 +1290,7 @@ function CompanyProfile() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/company-profile.js",
-                lineNumber: 37,
+                lineNumber: 45,
                 columnNumber: 7
             }, this)
         ]

@@ -6,7 +6,7 @@ export default function Terms() {
   return (
     <>
       <Head>
-        <title>Syarat & Ketentuan | PasarSegar</title>
+        <title>Syarat & Ketentuan | SuperSayur</title>
       </Head>
       <Navbar />
       <main className="min-h-screen bg-white py-16 animate-fadeIn">
@@ -21,8 +21,7 @@ export default function Terms() {
             <ul className="list-decimal pl-6 space-y-1">
               <li>Harga produk dapat berubah sewaktu-waktu mengikuti harga pasar.</li>
               <li>Stok produk dapat berubah tanpa pemberitahuan sebelumnya.</li>
-              <li>Proses pengiriman dilakukan pada hari kerja dan menyesuaikan lokasi pengiriman.</li>
-              <li>Pembatalan pesanan dapat dilakukan sebelum proses pengiriman dimulai.</li>
+              <li>Proses pengiriman dilakukan setelah melakukan Pre-Order pada hari kerja dan menyesuaikan lokasi pengiriman.</li>
               <li>Segala keluhan terkait produk atau layanan dapat disampaikan melalui kontak resmi kami.</li>
             </ul>
           </div>

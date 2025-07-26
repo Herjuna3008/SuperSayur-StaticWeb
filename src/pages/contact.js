@@ -20,17 +20,17 @@ export default function ContactPage() {
             <div>
               <span className="font-bold">Telepon/WhatsApp: </span>
               <a href="https://wa.me/6281291564078" target="_blank" rel="noopener noreferrer" className="text-green-700 hover:underline">
-              +6281291564078
+                +6281291564078
               </a>
               <a> & </a>
               <a href="https://wa.me/6287855233489" target="_blank" rel="noopener noreferrer" className="text-green-700 hover:underline">
-              +6287855233489
+                +6287855233489
               </a>
             </div>
             <div>
               <span className="font-bold">Email: </span>
-              <a href="mailto:info@pasarsegarsupplier.com" className="text-green-700 hover:underline">
-                info@SuperSayur.com
+              <a href="mailto:supersayur5@gmail.com" className="text-green-700 hover:underline">
+                supersayur5@gmail.com
               </a>
             </div>
           </div>

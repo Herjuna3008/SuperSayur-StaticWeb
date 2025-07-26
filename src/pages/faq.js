@@ -8,7 +8,12 @@ const FAQ_LIST = [
   {
     question: "Apakah pengiriman bisa ke seluruh Indonesia?",
     answer:
-      "Saat ini pengiriman kami mencakup area Jabodetabek, Bandung, dan kota-kota besar di Pulau Jawa. Hubungi admin untuk info pengiriman luar pulau.",
+      "Saat ini pengiriman kami mencakup area Jadetabek (Jakarta, Depok, Tangerang, Bekasi). Hubungi admin untuk info pengiriman luar pulau.",
+  },
+  {
+    question: "Mengapa saya tidak bisa melihat harga?",
+    answer:
+      "Untuk harga dan update stok bisa ditanyakan kepada Admin kami",
   },
   {
     question: "Apakah harga bisa negosiasi untuk pembelian dalam jumlah besar?",
@@ -18,7 +23,12 @@ const FAQ_LIST = [
   {
     question: "Bagaimana cara pesan produk di website ini?",
     answer:
-      "Pilih produk yang diinginkan, lalu klik tombol 'Pesan via WhatsApp'. Tim kami akan memproses pesanan Anda secepatnya.",
+      "Lihat produk yang diinginkan, lalu klik tombol 'WhatsApp' pada pojok kiri bawah layar anda. Tim kami akan memproses pesanan Anda secepatnya.",
+  },
+  {
+    question: "Berapa lama estimasi pengiriman?",
+    answer:
+      "Pengiriman akan dilakukan 1 Hari setelah melakukan Order melalui Whatsapp",
   },
 ];
 

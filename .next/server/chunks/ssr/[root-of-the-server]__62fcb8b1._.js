@@ -122,7 +122,7 @@ function Navbar() {
                         className: "flex items-center gap-3",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
-                                src: "https://i.postimg.cc/4NJNWBrf/Logo-Super-Sayur-300x.png",
+                                src: "https://ik.imagekit.io/hexocdn/Logo%20Super%20Sayur@300x.png?updatedAt=1753571167387",
                                 alt: "Logo",
                                 className: "h-10 w-auto"
                             }, void 0, false, {

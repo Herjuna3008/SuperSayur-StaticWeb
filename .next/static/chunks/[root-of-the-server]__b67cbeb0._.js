@@ -537,7 +537,7 @@ function Navbar() {
                         className: "flex items-center gap-3",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                src: "/logo.png",
+                                src: "https://ik.imagekit.io/hexocdn/Logo%20Super%20Sayur@300x.png?updatedAt=1753571167387",
                                 alt: "Logo",
                                 className: "h-10 w-auto"
                             }, void 0, false, {
@@ -1173,7 +1173,7 @@ function JangkauanPengiriman() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-gray-700 leading-relaxed mb-6",
-                            children: "SuperSayur melayani pengiriman bahan pangan segar ke berbagai area strategis di Indonesia, terutama:"
+                            children: "SuperSayur melayani pengiriman bahan pangan segar ke berbagai area strategis di Jadetabek, terutama:"
                         }, void 0, false, {
                             fileName: "[project]/src/pages/jangkauan-pengiriman.js",
                             lineNumber: 17,
@@ -1181,39 +1181,24 @@ function JangkauanPengiriman() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                             className: "list-disc pl-6 space-y-1 mb-6",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                    children: "Jabodetabek (Jakarta, Bogor, Depok, Tangerang, Bekasi)"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/pages/jangkauan-pengiriman.js",
-                                    lineNumber: 21,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                    children: "Bandung & sekitarnya"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/pages/jangkauan-pengiriman.js",
-                                    lineNumber: 22,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                    children: "Semarang, Yogyakarta, dan Surabaya"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/pages/jangkauan-pengiriman.js",
-                                    lineNumber: 23,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                    children: "Kota besar lain di Pulau Jawa"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/pages/jangkauan-pengiriman.js",
-                                    lineNumber: 24,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                children: "Jadetabek (Jakarta, Depok, Tangerang, Bekasi)"
+                            }, void 0, false, {
+                                fileName: "[project]/src/pages/jangkauan-pengiriman.js",
+                                lineNumber: 21,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
                             fileName: "[project]/src/pages/jangkauan-pengiriman.js",
                             lineNumber: 20,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-gray-700 leading-relaxed mb-6",
+                            children: "Hubungi Admin SuperSayur untuk pengiriman diluar jangkauan"
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/jangkauan-pengiriman.js",
+                            lineNumber: 23,
                             columnNumber: 11
                         }, this)
                     ]

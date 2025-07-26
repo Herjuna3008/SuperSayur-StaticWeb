@@ -9,12 +9,10 @@ const categories = [
   { key: "all", name: "Semua" },
   { key: "sayur", name: "Sayur" },
   { key: "daging", name: "Daging" },
-  { key: "buah", name: "Buah" },
-  { key: "rempah", name: "Rempah"}
+  { key: "seafood", name: "Seafood" },
 ];
 
 export default function Products() {
-  // Dummy produk, nanti tinggal fetch dari Supabase
   const [allProducts, setAllProducts] = useState([
     {
       id: 1,

@@ -119,7 +119,7 @@ function RatingBar({ avg = 4.75, total = 326}) {
     <div className="flex flex-col md:flex-row items-center justify-between bg-white rounded-xl shadow p-6 mb-10 w-full">
       <div className="flex items-center gap-4">
         <img
-          src="https://i.postimg.cc/4NJNWBrf/Logo-Super-Sayur-300x.png"
+          src="https://ik.imagekit.io/hexocdn/Logo%20Super%20Sayur@300x.png?updatedAt=1753571167387"
           alt="Logo"
           className="w-8 h-8"
         />

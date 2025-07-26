@@ -537,7 +537,7 @@ function Navbar() {
                         className: "flex items-center gap-3",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                src: "/logo.png",
+                                src: "https://ik.imagekit.io/hexocdn/Logo%20Super%20Sayur@300x.png?updatedAt=1753571167387",
                                 alt: "Logo",
                                 className: "h-10 w-auto"
                             }, void 0, false, {
@@ -1247,9 +1247,9 @@ function ContactPage() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "mailto:info@pasarsegarsupplier.com",
+                                            href: "mailto:supersayur5@gmail.com",
                                             className: "text-green-700 hover:underline",
-                                            children: "info@SuperSayur.com"
+                                            children: "supersayur5@gmail.com"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/contact.js",
                                             lineNumber: 32,
