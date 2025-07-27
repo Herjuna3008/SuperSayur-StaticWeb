@@ -1,10 +1,1 @@
-const CHUNK_PUBLIC_PATH = "server/pages/_app.js";
-const runtime = require("../chunks/ssr/[turbopack]_runtime.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_next_666296de._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_react-icons_fi_index_mjs_faa0559a._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_react-icons_fa_index_mjs_275a2265._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_react-icons_lib_6322dabf._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_@swc_helpers_cjs_ac5ba3e8._.js");
-runtime.loadChunk("server/chunks/ssr/[root-of-the-server]__e99bf779._.js");
-runtime.getOrInstantiateRuntimeModule("[project]/src/pages/_app.js [ssr] (ecmascript)", CHUNK_PUBLIC_PATH);
-module.exports = runtime.getOrInstantiateRuntimeModule("[project]/src/pages/_app.js [ssr] (ecmascript)", CHUNK_PUBLIC_PATH).exports;
+"use strict";(()=>{var a={};a.id=636,a.ids=[636],a.modules={361:a=>{a.exports=require("next/dist/compiled/next-server/pages.runtime.prod.js")},2015:a=>{a.exports=require("react")},2326:a=>{a.exports=require("react-dom")},4075:a=>{a.exports=require("zlib")},6401:a=>{a.exports=require("next-seo")},7085:a=>{a.exports=require("styled-jsx/style")},7910:a=>{a.exports=require("stream")},8732:a=>{a.exports=require("react/jsx-runtime")},9021:a=>{a.exports=require("fs")}};var b=require("../webpack-runtime.js");b.C(a);var c=b.X(0,[89,343,758],()=>b(b.s=6758));module.exports=c})();

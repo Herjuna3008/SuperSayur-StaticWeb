@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.supersayur.com
+
+# Sitemaps
+Sitemap: https://www.supersayur.com/sitemap.xml
