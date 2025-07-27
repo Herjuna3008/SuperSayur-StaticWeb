@@ -34,7 +34,7 @@ export default function App({ Component, pageProps }) {
         <meta name="theme-color" content="#16a34a" />
         <meta name="description" content="Supplier Sayur & Daging Segar | SuperSayur" />
         <meta name="apple-mobile-web-app-title" content="Super Sayur" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.ico" sizes="any" type="image/x-icon" />
         <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="apple-touch-icon" href="/apple-icon.png" />
