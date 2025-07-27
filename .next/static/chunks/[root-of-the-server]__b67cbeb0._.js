@@ -1141,7 +1141,6 @@ __turbopack_context__.s({
     "default": ()=>JangkauanPengiriman
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/head.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$seo$2f$lib$2f$next$2d$seo$2e$module$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next-seo/lib/next-seo.module.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Navbar$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Navbar.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Footer.js [client] (ecmascript)");
@@ -1149,21 +1148,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$
 ;
 ;
 ;
-;
 function JangkauanPengiriman() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("title", {
-                    children: "Jangkauan Pengiriman | SuperSayur"
-                }, void 0, false, {
-                    fileName: "[project]/src/pages/jangkauan-pengiriman.js",
-                    lineNumber: 10,
-                    columnNumber: 9
-                }, this)
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$seo$2f$lib$2f$next$2d$seo$2e$module$2e$js__$5b$client$5d$__$28$ecmascript$29$__["NextSeo"], {
+                title: "Jangkauan Pengiriman",
+                canonical: "https://www.supersayur.com/jangkauan-pengiriman",
+                description: "Area pengantaran SuperSayur mencakup Jakarta, Depok, Tangerang, dan Bekasi."
             }, void 0, false, {
                 fileName: "[project]/src/pages/jangkauan-pengiriman.js",
-                lineNumber: 9,
+                lineNumber: 8,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$seo$2f$lib$2f$next$2d$seo$2e$module$2e$js__$5b$client$5d$__$28$ecmascript$29$__["LocalBusinessJsonLd"], {
@@ -1181,12 +1175,12 @@ function JangkauanPengiriman() {
                 }
             }, void 0, false, {
                 fileName: "[project]/src/pages/jangkauan-pengiriman.js",
-                lineNumber: 12,
+                lineNumber: 13,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Navbar$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/jangkauan-pengiriman.js",
-                lineNumber: 26,
+                lineNumber: 27,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -1199,7 +1193,7 @@ function JangkauanPengiriman() {
                             children: "Jangkauan Pengiriman"
                         }, void 0, false, {
                             fileName: "[project]/src/pages/jangkauan-pengiriman.js",
-                            lineNumber: 29,
+                            lineNumber: 30,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1207,7 +1201,7 @@ function JangkauanPengiriman() {
                             children: "SuperSayur melayani pengiriman bahan pangan segar ke berbagai area strategis di Jadetabek, terutama:"
                         }, void 0, false, {
                             fileName: "[project]/src/pages/jangkauan-pengiriman.js",
-                            lineNumber: 32,
+                            lineNumber: 33,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1216,12 +1210,12 @@ function JangkauanPengiriman() {
                                 children: "Jadetabek (Jakarta, Depok, Tangerang, Bekasi)"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/jangkauan-pengiriman.js",
-                                lineNumber: 36,
+                                lineNumber: 37,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/pages/jangkauan-pengiriman.js",
-                            lineNumber: 35,
+                            lineNumber: 36,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1229,23 +1223,23 @@ function JangkauanPengiriman() {
                             children: "Hubungi Admin SuperSayur untuk melakukan pengiriman diluar kota diatas."
                         }, void 0, false, {
                             fileName: "[project]/src/pages/jangkauan-pengiriman.js",
-                            lineNumber: 38,
+                            lineNumber: 39,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/jangkauan-pengiriman.js",
-                    lineNumber: 28,
+                    lineNumber: 29,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/jangkauan-pengiriman.js",
-                lineNumber: 27,
+                lineNumber: 28,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/jangkauan-pengiriman.js",
-                lineNumber: 43,
+                lineNumber: 44,
                 columnNumber: 7
             }, this)
         ]

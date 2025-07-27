@@ -1,13 +1,15 @@
-import Head from "next/head";
+import { NextSeo } from 'next-seo';
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export default function CompanyProfile() {
   return (
     <>
-      <Head>
-        <title>Company Profile | SuperSayur</title>
-      </Head>
+      <NextSeo
+        title="Company Profile"
+        canonical="https://www.supersayur.com/company-profile"
+        description="Profil perusahaan SuperSayur sebagai pemasok sayur dan daging segar."
+      />
       <Navbar />
       <main className="min-h-screen bg-white py-16">
         <section className="max-w-3xl mx-auto px-4 ">

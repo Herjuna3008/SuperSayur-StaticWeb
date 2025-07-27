@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { NextSeo, ProductJsonLd } from 'next-seo';
+import { NextSeo } from 'next-seo';
 import Head from "next/head";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -885,23 +885,10 @@ export default function Products() {
 
   return (
     <>
-      <Head>
-        <title>Daftar Produk | SuperSayur</title>
-      </Head>
-
       <NextSeo
-        title={`${allProducts.name} - SuperSayur`}
-        description={`Beli ${allProducts.name} kualitas terbaik, harga grosir.`}
-      />
-      <ProductJsonLd
-        productName={allProducts.name}
-        images={[allProducts.image]}
-        brand="SuperSayur"
-        offers={{
-          priceCurrency: 'IDR',
-          availability: 'InStock',
-          url: `https://www.supersayur.com/products/#${categories.name}`
-        }}
+        title="Daftar Produk"
+        canonical="https://www.supersayur.com/product"
+        description="Daftar produk sayur, daging, dan seafood segar dari SuperSayur."
       />
 
       <Navbar />

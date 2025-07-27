@@ -2123,46 +2123,18 @@ function Products() {
     });
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("title", {
-                    children: "Daftar Produk | SuperSayur"
-                }, void 0, false, {
-                    fileName: "[project]/src/pages/product.js",
-                    lineNumber: 889,
-                    columnNumber: 9
-                }, this)
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$seo$2f$lib$2f$next$2d$seo$2e$module$2e$js__$5b$client$5d$__$28$ecmascript$29$__["NextSeo"], {
+                title: "Daftar Produk",
+                canonical: "https://www.supersayur.com/product",
+                description: "Daftar produk sayur, daging, dan seafood segar dari SuperSayur."
             }, void 0, false, {
                 fileName: "[project]/src/pages/product.js",
                 lineNumber: 888,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$seo$2f$lib$2f$next$2d$seo$2e$module$2e$js__$5b$client$5d$__$28$ecmascript$29$__["NextSeo"], {
-                title: "".concat(allProducts.name, " - SuperSayur"),
-                description: "Beli ".concat(allProducts.name, " kualitas terbaik, harga grosir.")
-            }, void 0, false, {
-                fileName: "[project]/src/pages/product.js",
-                lineNumber: 892,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$seo$2f$lib$2f$next$2d$seo$2e$module$2e$js__$5b$client$5d$__$28$ecmascript$29$__["ProductJsonLd"], {
-                productName: allProducts.name,
-                images: [
-                    allProducts.image
-                ],
-                brand: "SuperSayur",
-                offers: {
-                    priceCurrency: 'IDR',
-                    availability: 'InStock',
-                    url: "https://www.supersayur.com/products/#".concat(categories.name)
-                }
-            }, void 0, false, {
-                fileName: "[project]/src/pages/product.js",
-                lineNumber: 896,
-                columnNumber: 7
-            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Navbar$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/product.js",
-                lineNumber: 907,
+                lineNumber: 894,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -2175,7 +2147,7 @@ function Products() {
                             children: "Daftar Produk"
                         }, void 0, false, {
                             fileName: "[project]/src/pages/product.js",
-                            lineNumber: 910,
+                            lineNumber: 897,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2189,12 +2161,12 @@ function Products() {
                                             children: cat.name
                                         }, cat.key, false, {
                                             fileName: "[project]/src/pages/product.js",
-                                            lineNumber: 915,
+                                            lineNumber: 902,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/product.js",
-                                    lineNumber: 913,
+                                    lineNumber: 900,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2205,13 +2177,13 @@ function Products() {
                                     onChange: (e)=>setSearch(e.target.value)
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/product.js",
-                                    lineNumber: 927,
+                                    lineNumber: 914,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/product.js",
-                            lineNumber: 912,
+                            lineNumber: 899,
                             columnNumber: 11
                         }, this),
                         filteredProducts.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2219,7 +2191,7 @@ function Products() {
                             children: "Produk tidak ditemukan."
                         }, void 0, false, {
                             fileName: "[project]/src/pages/product.js",
-                            lineNumber: 937,
+                            lineNumber: 924,
                             columnNumber: 13
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4",
@@ -2227,12 +2199,12 @@ function Products() {
                                     product: product
                                 }, product.id, false, {
                                     fileName: "[project]/src/pages/product.js",
-                                    lineNumber: 941,
+                                    lineNumber: 928,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/pages/product.js",
-                            lineNumber: 939,
+                            lineNumber: 926,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2240,23 +2212,23 @@ function Products() {
                             children: "Hubungi Admin untuk melihat produk secara lengkap."
                         }, void 0, false, {
                             fileName: "[project]/src/pages/product.js",
-                            lineNumber: 945,
+                            lineNumber: 932,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/product.js",
-                    lineNumber: 909,
+                    lineNumber: 896,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/product.js",
-                lineNumber: 908,
+                lineNumber: 895,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/product.js",
-                lineNumber: 948,
+                lineNumber: 935,
                 columnNumber: 7
             }, this)
         ]

@@ -1,9 +1,15 @@
 import Link from "next/link";
 import Head from "next/head";
+import { NextSeo } from 'next-seo';
 
 export default function NotFoundPage() {
   return (
     <>
+    <NextSeo
+        title="404 - Halaman Tidak Ditemukan"
+        noindex={true}
+        canonical="https://www.supersayur.com/404"
+      />
       <Head>
         <title>404 - Halaman Tidak Ditemukan | SuperSayur</title>
       </Head>

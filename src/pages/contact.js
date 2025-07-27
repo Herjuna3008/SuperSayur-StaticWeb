@@ -1,13 +1,29 @@
-import Head from "next/head";
+import { NextSeo, LocalBusinessJsonLd } from 'next-seo';
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export default function ContactPage() {
   return (
     <>
-      <Head>
-        <title>Kontak | SuperSayur</title>
-      </Head>
+      <NextSeo
+        title="Kontak"
+        canonical="https://www.supersayur.com/contact"
+        description="Hubungi SuperSayur untuk pemesanan sayur, daging, dan seafood segar."
+      />
+      <LocalBusinessJsonLd
+        type="FoodService"
+        id="https://www.supersayur.com/contact"
+        name="SuperSayur"
+        description="Supplier sayur, daging, seafood untuk restoran dan hotel di Tangerang"
+        telephone="+62-812-9156-4078"
+        address={{
+          streetAddress: 'Jl. Mushola Babussalam, Pd. Kacang Tim., Kec. Pd. Aren',
+          addressLocality: 'Kota Tangerang Selatan',
+          addressRegion: 'Banten',
+          postalCode: '14045',
+          addressCountry: 'ID',
+        }}
+      />
       <Navbar />
       <main className="min-h-screen bg-white py-16 animate-fadeIn">
         <section className="max-w-2xl mx-auto px-4">

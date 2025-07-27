@@ -1,14 +1,15 @@
-import Head from "next/head";
-import { LocalBusinessJsonLd } from 'next-seo';
+import { NextSeo, LocalBusinessJsonLd } from 'next-seo';
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export default function JangkauanPengiriman() {
   return (
     <>
-      <Head>
-        <title>Jangkauan Pengiriman | SuperSayur</title>
-      </Head>
+      <NextSeo
+        title="Jangkauan Pengiriman"
+        canonical="https://www.supersayur.com/jangkauan-pengiriman"
+        description="Area pengantaran SuperSayur mencakup Jakarta, Depok, Tangerang, dan Bekasi."
+      />
       <LocalBusinessJsonLd
         type="FoodService"
         id="https://www.supersayur.com/"

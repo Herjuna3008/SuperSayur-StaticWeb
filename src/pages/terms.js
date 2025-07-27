@@ -1,13 +1,15 @@
-import Head from "next/head";
+import { NextSeo } from 'next-seo';
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export default function Terms() {
   return (
     <>
-      <Head>
-        <title>Syarat & Ketentuan | SuperSayur</title>
-      </Head>
+      <NextSeo
+        title="Syarat & Ketentuan"
+        canonical="https://www.supersayur.com/terms"
+        description="Ketentuan berbelanja dan menggunakan layanan SuperSayur."
+      />
       <Navbar />
       <main className="min-h-screen bg-white py-16 animate-fadeIn">
         <section className="max-w-2xl mx-auto px-4">

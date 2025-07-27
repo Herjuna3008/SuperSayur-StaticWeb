@@ -1141,7 +1141,7 @@ __turbopack_context__.s({
     "default": ()=>ContactPage
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/head.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$seo$2f$lib$2f$next$2d$seo$2e$module$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next-seo/lib/next-seo.module.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Navbar$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Navbar.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Footer.js [client] (ecmascript)");
 ;
@@ -1151,22 +1151,36 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$
 function ContactPage() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("title", {
-                    children: "Kontak | SuperSayur"
-                }, void 0, false, {
-                    fileName: "[project]/src/pages/contact.js",
-                    lineNumber: 9,
-                    columnNumber: 9
-                }, this)
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$seo$2f$lib$2f$next$2d$seo$2e$module$2e$js__$5b$client$5d$__$28$ecmascript$29$__["NextSeo"], {
+                title: "Kontak",
+                canonical: "https://www.supersayur.com/contact",
+                description: "Hubungi SuperSayur untuk pemesanan sayur, daging, dan seafood segar."
             }, void 0, false, {
                 fileName: "[project]/src/pages/contact.js",
                 lineNumber: 8,
                 columnNumber: 7
             }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$seo$2f$lib$2f$next$2d$seo$2e$module$2e$js__$5b$client$5d$__$28$ecmascript$29$__["LocalBusinessJsonLd"], {
+                type: "FoodService",
+                id: "https://www.supersayur.com/contact",
+                name: "SuperSayur",
+                description: "Supplier sayur, daging, seafood untuk restoran dan hotel di Tangerang",
+                telephone: "+62-812-9156-4078",
+                address: {
+                    streetAddress: 'Jl. Mushola Babussalam, Pd. Kacang Tim., Kec. Pd. Aren',
+                    addressLocality: 'Kota Tangerang Selatan',
+                    addressRegion: 'Banten',
+                    postalCode: '14045',
+                    addressCountry: 'ID'
+                }
+            }, void 0, false, {
+                fileName: "[project]/src/pages/contact.js",
+                lineNumber: 13,
+                columnNumber: 7
+            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Navbar$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/contact.js",
-                lineNumber: 11,
+                lineNumber: 27,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -1179,7 +1193,7 @@ function ContactPage() {
                             children: "Kontak Kami"
                         }, void 0, false, {
                             fileName: "[project]/src/pages/contact.js",
-                            lineNumber: 14,
+                            lineNumber: 30,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1192,7 +1206,7 @@ function ContactPage() {
                                             children: "Alamat: "
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/contact.js",
-                                            lineNumber: 17,
+                                            lineNumber: 33,
                                             columnNumber: 15
                                         }, this),
                                         "Jl. Mushola Babussalam, Pd. Kacang Tim., Kec. Pd. Aren, Kota Tangerang Selatan, Banten 14045",
@@ -1200,13 +1214,13 @@ function ContactPage() {
                                             children: "Tempat pemotongan ayam SuperSayur"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/contact.js",
-                                            lineNumber: 19,
+                                            lineNumber: 35,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/contact.js",
-                                    lineNumber: 16,
+                                    lineNumber: 32,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1216,7 +1230,7 @@ function ContactPage() {
                                             children: "Telepon/WhatsApp: "
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/contact.js",
-                                            lineNumber: 22,
+                                            lineNumber: 38,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1227,14 +1241,14 @@ function ContactPage() {
                                             children: "+6281291564078"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/contact.js",
-                                            lineNumber: 23,
+                                            lineNumber: 39,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                             children: " & "
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/contact.js",
-                                            lineNumber: 26,
+                                            lineNumber: 42,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1245,13 +1259,13 @@ function ContactPage() {
                                             children: "+6287855233489"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/contact.js",
-                                            lineNumber: 27,
+                                            lineNumber: 43,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/contact.js",
-                                    lineNumber: 21,
+                                    lineNumber: 37,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1261,7 +1275,7 @@ function ContactPage() {
                                             children: "Email: "
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/contact.js",
-                                            lineNumber: 32,
+                                            lineNumber: 48,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1270,19 +1284,19 @@ function ContactPage() {
                                             children: "supersayur5@gmail.com"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/contact.js",
-                                            lineNumber: 33,
+                                            lineNumber: 49,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/contact.js",
-                                    lineNumber: 31,
+                                    lineNumber: 47,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/contact.js",
-                            lineNumber: 15,
+                            lineNumber: 31,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1296,7 +1310,7 @@ function ContactPage() {
                                     children: "Admin 1"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/contact.js",
-                                    lineNumber: 39,
+                                    lineNumber: 55,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1307,13 +1321,13 @@ function ContactPage() {
                                     children: "Admin 2"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/contact.js",
-                                    lineNumber: 47,
+                                    lineNumber: 63,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/contact.js",
-                            lineNumber: 38,
+                            lineNumber: 54,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
@@ -1324,23 +1338,23 @@ function ContactPage() {
                             referrerPolicy: "no-referrer-when-downgrade"
                         }, void 0, false, {
                             fileName: "[project]/src/pages/contact.js",
-                            lineNumber: 56,
+                            lineNumber: 72,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/contact.js",
-                    lineNumber: 13,
+                    lineNumber: 29,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/contact.js",
-                lineNumber: 12,
+                lineNumber: 28,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/contact.js",
-                lineNumber: 65,
+                lineNumber: 81,
                 columnNumber: 7
             }, this)
         ]

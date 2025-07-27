@@ -1,4 +1,4 @@
-import Head from "next/head";
+import { NextSeo } from 'next-seo';
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FAQItem from "@/components/FAQItem";
@@ -39,9 +39,11 @@ const FAQ_LIST = [
 export default function FAQPage() {
   return (
     <>
-      <Head>
-        <title>FAQ | SuperSayur</title>
-      </Head>
+      <NextSeo
+        title="FAQ"
+        canonical="https://www.supersayur.com/faq"
+        description="Pertanyaan yang sering diajukan mengenai layanan SuperSayur."
+      />
       <Navbar />
       <main className="min-h-screen bg-white py-16 animate-fadeIn">
         <section className="max-w-2xl mx-auto px-4">

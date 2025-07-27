@@ -1,9 +1,7 @@
 import { useState } from "react";
-import Head from "next/head";
 import Link from "next/link";
 import dynamic from 'next/dynamic';
-import { NextSeo } from 'next-seo';
-import { LocalBusinessJsonLd } from 'next-seo';
+import { NextSeo, LocalBusinessJsonLd } from 'next-seo';
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CustomerCarousel from "@/components/CustomerCarousel";
@@ -55,9 +53,6 @@ export default function Home() {
 
   return (
     <>
-      <Head>
-        <title>SuperSayur - Supplier Sayur & Daging Segar</title>
-      </Head>
       <NextSeo
         title="Supplier Sayur & Daging Segar"
         description="Pemasok sayur, daging, dan seafood berkualitas untuk restoran, hotel, dan retailer."
