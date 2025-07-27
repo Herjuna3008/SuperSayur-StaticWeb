@@ -23,7 +23,8 @@ export default function Terms() {
               <li>Stok produk dapat berubah tanpa pemberitahuan sebelumnya.</li>
               <li>Proses pengiriman dilakukan setelah melakukan Pre-Order pada hari kerja dan menyesuaikan lokasi pengiriman.</li>
               <li>Segala keluhan terkait produk atau layanan dapat disampaikan melalui kontak resmi kami.</li>
-              <li>Update list harga dan stok terbaru akan kami kirimkan secara berkala, jika anda sudah berlangganan kepada kami. </li>
+              <li>Update list harga dan stok terbaru akan kami kirimkan secara berkala, jika anda sudah berlangganan kepada kami.</li>
+              <li>Opsi pemabayran dapat dilakukan dengan tempo dan cash, hubungi admin kami untuk melakukan pemabayran.</li>
             </ul>
           </div>
         </section>

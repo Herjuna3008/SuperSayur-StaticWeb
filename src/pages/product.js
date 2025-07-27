@@ -12,17 +12,7 @@ const categories = [
   { key: "seafood", name: "Seafood" },
 ];
 
-export async function getStaticPaths() {
-  // fetch product slugs from CMS or static data
-  return { paths: [], fallback: 'blocking' };
-}
-
-export async function getStaticProps({ params }) {
-  // fetch product detail
-  return { props: { product } };
-}
-
-export default function Products({ products }) {
+export default function Products() {
   const [allProducts, setAllProducts] = useState([
     {
       "id": 1,

@@ -28,8 +28,12 @@ const FAQ_LIST = [
   {
     question: "Berapa lama estimasi pengiriman?",
     answer:
-      "Pengiriman akan dilakukan 1 Hari setelah melakukan Order melalui Whatsapp",
+      "Pengiriman akan dilakukan 1 Hari setelah melakukan Order melalui Whatsapp.",
   },
+  {
+    question: "Apakah pemabayaran dapat dilakukan dengan sistem cicilan/tempo?",
+    answer: "Ya tentu saja pembayaran dapat dilakukan dengan sistem tempo, hubungi admin kami untuk info lebih lanjut."
+  }
 ];
 
 export default function FAQPage() {

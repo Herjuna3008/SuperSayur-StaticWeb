@@ -1178,7 +1178,18 @@ function ProductCard(param) {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex items-center justify-between"
+                        className: "flex items-center justify-between",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                            href: "https://wa.me/6281234567890?text=Saya ingin memesan ".concat(encodeURIComponent(product.name)),
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                            className: "block text-center mt-3 bg-green-600 text-white py-2 px-4 rounded-full font-semibold shadow hover:bg-green-700 hover:scale-105 transition-transform",
+                            children: "Pesan via WhatsApp"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/ProductCard.js",
+                            lineNumber: 14,
+                            columnNumber: 9
+                        }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProductCard.js",
                         lineNumber: 13,
@@ -1210,7 +1221,6 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
-    "__N_SSG": ()=>__N_SSG,
     "default": ()=>Products
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
@@ -1246,9 +1256,7 @@ const categories = [
         name: "Seafood"
     }
 ];
-var __N_SSG = true;
-function Products(param) {
-    let { products } = param;
+function Products() {
     _s();
     const [allProducts, setAllProducts] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])([
         {
@@ -2120,12 +2128,12 @@ function Products(param) {
                     children: "Daftar Produk | SuperSayur"
                 }, void 0, false, {
                     fileName: "[project]/src/pages/product.js",
-                    lineNumber: 899,
+                    lineNumber: 889,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/product.js",
-                lineNumber: 898,
+                lineNumber: 888,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$seo$2f$lib$2f$next$2d$seo$2e$module$2e$js__$5b$client$5d$__$28$ecmascript$29$__["NextSeo"], {
@@ -2133,7 +2141,7 @@ function Products(param) {
                 description: "Beli ".concat(allProducts.name, " kualitas terbaik, harga grosir.")
             }, void 0, false, {
                 fileName: "[project]/src/pages/product.js",
-                lineNumber: 902,
+                lineNumber: 892,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$seo$2f$lib$2f$next$2d$seo$2e$module$2e$js__$5b$client$5d$__$28$ecmascript$29$__["ProductJsonLd"], {
@@ -2149,12 +2157,12 @@ function Products(param) {
                 }
             }, void 0, false, {
                 fileName: "[project]/src/pages/product.js",
-                lineNumber: 906,
+                lineNumber: 896,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Navbar$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/product.js",
-                lineNumber: 917,
+                lineNumber: 907,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -2167,7 +2175,7 @@ function Products(param) {
                             children: "Daftar Produk"
                         }, void 0, false, {
                             fileName: "[project]/src/pages/product.js",
-                            lineNumber: 920,
+                            lineNumber: 910,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2181,12 +2189,12 @@ function Products(param) {
                                             children: cat.name
                                         }, cat.key, false, {
                                             fileName: "[project]/src/pages/product.js",
-                                            lineNumber: 925,
+                                            lineNumber: 915,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/product.js",
-                                    lineNumber: 923,
+                                    lineNumber: 913,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2197,13 +2205,13 @@ function Products(param) {
                                     onChange: (e)=>setSearch(e.target.value)
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/product.js",
-                                    lineNumber: 937,
+                                    lineNumber: 927,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/product.js",
-                            lineNumber: 922,
+                            lineNumber: 912,
                             columnNumber: 11
                         }, this),
                         filteredProducts.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2211,7 +2219,7 @@ function Products(param) {
                             children: "Produk tidak ditemukan."
                         }, void 0, false, {
                             fileName: "[project]/src/pages/product.js",
-                            lineNumber: 947,
+                            lineNumber: 937,
                             columnNumber: 13
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4",
@@ -2219,12 +2227,12 @@ function Products(param) {
                                     product: product
                                 }, product.id, false, {
                                     fileName: "[project]/src/pages/product.js",
-                                    lineNumber: 951,
+                                    lineNumber: 941,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/pages/product.js",
-                            lineNumber: 949,
+                            lineNumber: 939,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2232,23 +2240,23 @@ function Products(param) {
                             children: "Hubungi Admin untuk melihat produk secara lengkap."
                         }, void 0, false, {
                             fileName: "[project]/src/pages/product.js",
-                            lineNumber: 955,
+                            lineNumber: 945,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/product.js",
-                    lineNumber: 919,
+                    lineNumber: 909,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/product.js",
-                lineNumber: 918,
+                lineNumber: 908,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/product.js",
-                lineNumber: 958,
+                lineNumber: 948,
                 columnNumber: 7
             }, this)
         ]

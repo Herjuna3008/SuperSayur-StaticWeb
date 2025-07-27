@@ -4,6 +4,8 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
+  "/company-profile": "pages/company-profile.js",
   "/contact": "pages/contact.js",
+  "/jangkauan-pengiriman": "pages/jangkauan-pengiriman.js",
   "/product": "pages/product.js"
 }

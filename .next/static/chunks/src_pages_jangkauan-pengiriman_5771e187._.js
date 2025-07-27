@@ -11,7 +11,7 @@
   "static/chunks/node_modules_react-icons_fi_index_mjs_73949438._.js",
   "static/chunks/node_modules_react-icons_fa_index_mjs_bad01e3f._.js",
   "static/chunks/node_modules_react-icons_lib_75a63dfe._.js",
-  "static/chunks/node_modules_a80c7711._.js",
+  "static/chunks/node_modules_7680e527._.js",
   "static/chunks/[root-of-the-server]__b67cbeb0._.js"
 ],
     source: "entry"
