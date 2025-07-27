@@ -9,9 +9,9 @@ __turbopack_load_page_chunks__("/_app", [
   "static/chunks/node_modules_react-icons_fi_index_mjs_73949438._.js",
   "static/chunks/node_modules_react-icons_fa_index_mjs_bad01e3f._.js",
   "static/chunks/node_modules_react-icons_lib_75a63dfe._.js",
-  "static/chunks/node_modules_53f89b01._.js",
-  "static/chunks/[root-of-the-server]__8ebd85d4._.js",
+  "static/chunks/node_modules_589354a5._.js",
+  "static/chunks/[root-of-the-server]__5bf7e823._.js",
   "static/chunks/src_styles_globals_4738091e.css",
   "static/chunks/src_pages__app_5771e187._.js",
-  "static/chunks/src_pages__app_f9374f95._.js"
+  "static/chunks/src_pages__app_4ea517ec._.js"
 ])

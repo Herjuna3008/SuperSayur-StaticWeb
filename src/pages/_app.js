@@ -1,11 +1,13 @@
 import "@/styles/globals.css";
 import Head from "next/head";
+import { DefaultSeo, BreadcrumbJsonLd } from 'next-seo';
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FloatingWhatsapp from "@/components/FloatingWhatsapp";
 import LoadingOverlay from "@/components/LoadingSpinner";
+import SEO from '@/lib/next-seo.config';
 
 // Kalau kamu ingin Navbar & Footer tampil di seluruh halaman, import di sini (bisa juga khusus page)
 export default function App({ Component, pageProps }) {
@@ -40,7 +42,13 @@ export default function App({ Component, pageProps }) {
         <link rel="apple-touch-icon" href="/apple-icon.png" />
         <link rel="manifest" href="/manifest.json" />
       </Head>
-      {/* Untuk efek transisi halaman, bisa tambah animasi di container */}
+      <DefaultSeo {...SEO} />
+      <BreadcrumbJsonLd
+        itemListElements={[
+          { position: 1, name: 'Home', item: 'https://www.supersayur.com' },
+          { position: 2, name: 'Produk', item: 'https://www.supersayur.com/product' },
+          { position: 3, name: 'Kontak', item: `https://www.supersayur.com/contact` },
+        ]} />
       <LoadingOverlay show={loading}>
         <div className="min-h-screen flex flex-col bg-green-50">
           <Component {...pageProps} />

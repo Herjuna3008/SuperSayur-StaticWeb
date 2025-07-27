@@ -1,13 +1,19 @@
 import { useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
-import Image from "next/image";
+import dynamic from 'next/dynamic';
+import { NextSeo } from 'next-seo';
+import { LocalBusinessJsonLd } from 'next-seo';
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CustomerCarousel from "@/components/CustomerCarousel";
 import TiltImage from "@/components/TiltImage";
-import ReviewCarousel from "@/components/ReviewCarousel";
 import AnimatedSection from "@/components/AnimatedSection";
+
+const ReviewCarousel = dynamic(() => import('@/components/ReviewCarousel'), {
+  loading: () => <p>Loading...</p>,
+  ssr: false
+});
 
 const heroImages = [
   "https://ik.imagekit.io/hexocdn/ChatGPT%20Image%20Jul%2027,%202025,%2007_28_07%20AM.png?updatedAt=1753576147434",
@@ -52,6 +58,25 @@ export default function Home() {
       <Head>
         <title>SuperSayur - Supplier Sayur & Daging Segar</title>
       </Head>
+      <NextSeo
+        title="Supplier Sayur & Daging Segar"
+        description="Pemasok sayur, daging, dan seafood berkualitas untuk restoran, hotel, dan retailer."
+        canonical="https://www.supersayur.com/"
+      />
+      <LocalBusinessJsonLd
+        type="FoodService"
+        id="https://www.supersayur.com/"
+        name="SuperSayur"
+        description="Supplier sayur, daging, seafood untuk restoran dan hotel di Tangerang"
+        telephone="+62-812-9156-4078"
+        address={{
+          streetAddress: 'Jl. Mushola Babussalam, Pd. Kacang Tim., Kec. Pd. Aren',
+          addressLocality: 'Kota Tangerang Selatan',
+          addressRegion: 'Banten',
+          postalCode: '14045',
+          addressCountry: 'ID',
+        }}
+      />
       <Navbar />
 
       <div className="space-y-32">

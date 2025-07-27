@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { NextSeo, ProductJsonLd } from 'next-seo';
 import Head from "next/head";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -11,7 +12,17 @@ const categories = [
   { key: "seafood", name: "Seafood" },
 ];
 
-export default function Products() {
+export async function getStaticPaths() {
+  // fetch product slugs from CMS or static data
+  return { paths: [], fallback: 'blocking' };
+}
+
+export async function getStaticProps({ params }) {
+  // fetch product detail
+  return { props: { product } };
+}
+
+export default function Products({ products }) {
   const [allProducts, setAllProducts] = useState([
     {
       "id": 1,
@@ -887,6 +898,22 @@ export default function Products() {
       <Head>
         <title>Daftar Produk | SuperSayur</title>
       </Head>
+
+      <NextSeo
+        title={`${allProducts.name} - SuperSayur`}
+        description={`Beli ${allProducts.name} kualitas terbaik, harga grosir.`}
+      />
+      <ProductJsonLd
+        productName={allProducts.name}
+        images={[allProducts.image]}
+        brand="SuperSayur"
+        offers={{
+          priceCurrency: 'IDR',
+          availability: 'InStock',
+          url: `https://www.supersayur.com/products/#${categories.name}`
+        }}
+      />
+
       <Navbar />
       <main className="min-h-screen bg-gray-50 pb-20 animate-fadeIn">
         <section className="max-w-6xl mx-auto px-4 py-12">
