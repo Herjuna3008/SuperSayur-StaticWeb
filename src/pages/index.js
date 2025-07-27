@@ -9,8 +9,8 @@ import ReviewCarousel from "@/components/ReviewCarousel";
 import AnimatedSection from "@/components/AnimatedSection";
 
 const heroImages = [
-  "https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1074&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1563201515-adbe35c669c5?q=80&w=1174&auto=format&fit=crop"
+  "https://ik.imagekit.io/hexocdn/ChatGPT%20Image%20Jul%2027,%202025,%2007_28_07%20AM.png?updatedAt=1753576147434",
+  "https://ik.imagekit.io/hexocdn/ChatGPT%20Image%20Jul%2027,%202025,%2007_26_07%20AM.png?updatedAt=1753576147511"
 ];
 
 const categories = [
@@ -67,7 +67,7 @@ export default function Home() {
         >
           {/* Konten hero */}
           <div>
-            <h1 className="text-5xl font-extrabold mb-4 drop-shadow-lg">SuperSayur</h1>
+            <h1 className="text-5xl md:text-8xl font-extrabold mb-4 drop-shadow-lg ">SuperSayur</h1>
             <p className="text-xl mb-6 drop-shadow">
               Supplier Sayur & Daging Segar untuk Bisnis Anda
             </p>

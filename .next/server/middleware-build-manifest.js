@@ -111,10 +111,12 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/node_modules_react-icons_fi_index_mjs_73949438._.js",
       "static/chunks/node_modules_react-icons_fa_index_mjs_bad01e3f._.js",
       "static/chunks/node_modules_react-icons_lib_75a63dfe._.js",
-      "static/chunks/node_modules_a80c7711._.js",
-      "static/chunks/[root-of-the-server]__8c33a117._.js",
+      "static/chunks/node_modules_motion-dom_dist_es_ba1ee025._.js",
+      "static/chunks/node_modules_framer-motion_dist_es_b04a0cdb._.js",
+      "static/chunks/node_modules_ae6d8680._.js",
+      "static/chunks/[root-of-the-server]__97cd3843._.js",
       "static/chunks/src_pages_product_5771e187._.js",
-      "static/chunks/src_pages_product_874036ea._.js"
+      "static/chunks/src_pages_product_7cd57eed._.js"
     ],
     "/terms": [
       "static/chunks/node_modules_next_dist_compiled_next-devtools_index_82a36480.js",
