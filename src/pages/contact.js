@@ -16,6 +16,7 @@ export default function ContactPage() {
             <div>
               <span className="font-bold">Alamat: </span>
               Jl. Mushola Babussalam, Pd. Kacang Tim., Kec. Pd. Aren, Kota Tangerang Selatan, Banten 14045
+              <p>Tempat pemotongan ayam SuperSayur</p>
             </div>
             <div>
               <span className="font-bold">Telepon/WhatsApp: </span>

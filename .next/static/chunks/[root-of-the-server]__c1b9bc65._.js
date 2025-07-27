@@ -1195,7 +1195,14 @@ function ContactPage() {
                                             lineNumber: 17,
                                             columnNumber: 15
                                         }, this),
-                                        "Jl. Mushola Babussalam, Pd. Kacang Tim., Kec. Pd. Aren, Kota Tangerang Selatan, Banten 14045"
+                                        "Jl. Mushola Babussalam, Pd. Kacang Tim., Kec. Pd. Aren, Kota Tangerang Selatan, Banten 14045",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            children: "Tempat pemotongan ayam SuperSayur"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/pages/contact.js",
+                                            lineNumber: 19,
+                                            columnNumber: 15
+                                        }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/contact.js",
@@ -1209,7 +1216,7 @@ function ContactPage() {
                                             children: "Telepon/WhatsApp: "
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/contact.js",
-                                            lineNumber: 21,
+                                            lineNumber: 22,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1220,14 +1227,14 @@ function ContactPage() {
                                             children: "+6281291564078"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/contact.js",
-                                            lineNumber: 22,
+                                            lineNumber: 23,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                             children: " & "
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/contact.js",
-                                            lineNumber: 25,
+                                            lineNumber: 26,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1238,13 +1245,13 @@ function ContactPage() {
                                             children: "+6287855233489"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/contact.js",
-                                            lineNumber: 26,
+                                            lineNumber: 27,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/contact.js",
-                                    lineNumber: 20,
+                                    lineNumber: 21,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1254,7 +1261,7 @@ function ContactPage() {
                                             children: "Email: "
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/contact.js",
-                                            lineNumber: 31,
+                                            lineNumber: 32,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1263,13 +1270,13 @@ function ContactPage() {
                                             children: "supersayur5@gmail.com"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/contact.js",
-                                            lineNumber: 32,
+                                            lineNumber: 33,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/contact.js",
-                                    lineNumber: 30,
+                                    lineNumber: 31,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -1289,7 +1296,7 @@ function ContactPage() {
                                     children: "Admin 1"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/contact.js",
-                                    lineNumber: 38,
+                                    lineNumber: 39,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1300,13 +1307,13 @@ function ContactPage() {
                                     children: "Admin 2"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/contact.js",
-                                    lineNumber: 46,
+                                    lineNumber: 47,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/contact.js",
-                            lineNumber: 37,
+                            lineNumber: 38,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
@@ -1317,7 +1324,7 @@ function ContactPage() {
                             referrerPolicy: "no-referrer-when-downgrade"
                         }, void 0, false, {
                             fileName: "[project]/src/pages/contact.js",
-                            lineNumber: 55,
+                            lineNumber: 56,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1333,7 +1340,7 @@ function ContactPage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/contact.js",
-                lineNumber: 64,
+                lineNumber: 65,
                 columnNumber: 7
             }, this)
         ]
