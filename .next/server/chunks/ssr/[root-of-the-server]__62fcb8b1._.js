@@ -996,7 +996,8 @@ function App({ Component, pageProps }) {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("link", {
                         rel: "icon",
                         type: "image/png",
-                        href: "/icon1.png"
+                        href: "/favicon-96x96.png",
+                        sizes: "96x96"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/_app.js",
                         lineNumber: 38,
@@ -1005,7 +1006,7 @@ function App({ Component, pageProps }) {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("link", {
                         rel: "icon",
                         type: "image/svg+xml",
-                        href: "/icon0.svg"
+                        href: "/favicon.svg"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/_app.js",
                         lineNumber: 39,
