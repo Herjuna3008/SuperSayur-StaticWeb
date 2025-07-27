@@ -841,6 +841,40 @@ export default function Products() {
   const [category, setCategory] = useState("all");
   const [search, setSearch] = useState("");
 
+  const validCategoryKeys = categories.map((cat) => cat.key);
+
+  
+  // Sync state dengan hash di URL
+  useEffect(() => {
+    function syncCategoryWithHash() {
+      // Ambil hash (tanpa #)
+      let hash = (window.location.hash || "").replace("#", "");
+      if (!hash) hash = "all";
+      if (!validCategoryKeys.includes(hash)) {
+        // Jika gak valid fallback ke all & update URL
+        window.location.hash = "all";
+        setCategory("all");
+      } else {
+        setCategory(hash);
+      }
+    }
+
+    // Jalankan sekali saat mount (initial load)
+    syncCategoryWithHash();
+
+    // Jalankan setiap hash berubah
+    window.addEventListener("hashchange", syncCategoryWithHash);
+
+    // Cleanup
+    return () => window.removeEventListener("hashchange", syncCategoryWithHash);
+  }, []);
+
+  // Saat klik kategori, update hash (dan otomatis update state lewat useEffect)
+  function handleCategoryClick(catKey) {
+    window.location.hash = catKey;
+    // Jangan setCategory langsung, biar useEffect yang handle (biar selalu sync)
+  }
+
   // Filter produk by kategori dan pencarian
   const filteredProducts = allProducts.filter((prod) => {
     const matchCategory = category === "all" || prod.category === category;
@@ -863,7 +897,7 @@ export default function Products() {
               {categories.map((cat) => (
                 <button
                   key={cat.key}
-                  onClick={() => setCategory(cat.key)}
+                  onClick={() => handleCategoryClick(cat.key)}
                   className={`px-5 py-2 rounded-full font-medium border transition
                     ${category === cat.key
                       ? "bg-green-600 text-white shadow"

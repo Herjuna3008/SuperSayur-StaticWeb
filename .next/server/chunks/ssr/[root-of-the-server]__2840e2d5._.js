@@ -61,7 +61,7 @@ function ContactPage() {
                                             lineNumber: 17,
                                             columnNumber: 15
                                         }, this),
-                                        "Jl. Sehat Selalu No. 8, Tangerang, Banten"
+                                        "Jl. Mushola Babussalam, Pd. Kacang Tim., Kec. Pd. Aren, Kota Tangerang Selatan, Banten 14045"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/contact.js",
@@ -174,6 +174,17 @@ function ContactPage() {
                             fileName: "[project]/src/pages/contact.js",
                             lineNumber: 37,
                             columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("iframe", {
+                            src: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d991.5065850588983!2d106.70038904120617!3d-6.260260639171955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMTUnMzcuMCJTIDEwNsKwNDInMDIuOCJF!5e0!3m2!1sid!2sid!4v1753624296453!5m2!1sid!2sid",
+                            className: "w-full h-[500px] border-0 py-5",
+                            allowFullScreen: "",
+                            loading: "lazy",
+                            referrerPolicy: "no-referrer-when-downgrade"
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/contact.js",
+                            lineNumber: 55,
+                            columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
@@ -188,7 +199,7 @@ function ContactPage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/contact.js",
-                lineNumber: 57,
+                lineNumber: 64,
                 columnNumber: 7
             }, this)
         ]

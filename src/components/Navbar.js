@@ -3,6 +3,7 @@ import Link from "next/link";
 import { FiMenu, FiX } from "react-icons/fi";
 
 const navLinks = [
+  { href: "/", label: "Home" },
   { href: "/company-profile", label: "Company Profile" },
   { href: "/faq", label: "FAQ" },
   { href: "/jangkauan-pengiriman", label: "Jangkauan" },
@@ -68,7 +69,10 @@ export default function Navbar() {
             <div className="flex justify-between items-center h-16">
               <div />
               <button
-                onClick={() => setMobileOpen((v) => !v)}
+                onClick={() => {
+                  window.scrollBy({ top: 200, left: 0, behavior: "smooth" });
+                  setMobileOpen((v) => !v);
+                }}                
                 className="text-3xl text-green-800"
                 aria-label="Open Menu"
               >

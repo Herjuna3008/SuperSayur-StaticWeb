@@ -9,7 +9,7 @@ export default function ProductCard({ product }) {
         />
       </div>
       <div className="p-5">
-        <h3 className="font-semibold text-lg mb-1">{product.name}</h3>
+        <h3 className="font-semibold text-lg mb-1">{product.name} 1Kg</h3>
         <div className="flex items-center justify-between">
         </div>
       </div>

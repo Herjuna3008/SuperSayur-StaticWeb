@@ -49,7 +49,7 @@
       # Runs when the workspace is (re)started
       onStart = {
         # Example: start a background task to watch and re-build backend code
-        watch-backend = "npm run dev";
+        watch-backend = "npm run build";
       };
     };
   };

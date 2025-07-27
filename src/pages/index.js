@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CustomerCarousel from "@/components/CustomerCarousel";
@@ -14,9 +15,9 @@ const heroImages = [
 ];
 
 const categories = [
-  { name: "Sayur", icon: "https://cdn0.iconfinder.com/data/icons/goofy-international-food-color/96/Salad-512.png" },
-  { name: "Daging Ayam", icon: "https://cdn0.iconfinder.com/data/icons/weight-loss-1/64/meat-protein-keto_diet-ketogenic_diet-beef-poultry-bacon-512.png" },
-  { name: "Seafood", icon: "https://cdn1.iconfinder.com/data/icons/animal-kingdom-vol-2/512/catship_carp_fish_seafood-1024.png" }
+  { name: "Sayur", icon: "https://cdn0.iconfinder.com/data/icons/goofy-international-food-color/96/Salad-512.png", key: "sayuran" },
+  { name: "Daging Ayam", icon: "https://cdn0.iconfinder.com/data/icons/weight-loss-1/64/meat-protein-keto_diet-ketogenic_diet-beef-poultry-bacon-512.png", key: "daging" },
+  { name: "Seafood", icon: "https://cdn1.iconfinder.com/data/icons/animal-kingdom-vol-2/512/catship_carp_fish_seafood-1024.png", key: "seafood" }
 ];
 
 const customers = [
@@ -145,7 +146,7 @@ export default function Home() {
                 <AnimatedSection key={i} effect="up" delay={i * 0.10}>
                   <Link
                     key={i}
-                    href="/product"
+                    href={`/product#${c.key}`}
                     className="group"
                     style={{ display: "block", zIndex: 10 }}
                   >

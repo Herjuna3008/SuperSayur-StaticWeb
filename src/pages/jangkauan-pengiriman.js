@@ -21,7 +21,7 @@ export default function JangkauanPengiriman() {
             <li>Jadetabek (Jakarta, Depok, Tangerang, Bekasi)</li>
           </ul>
           <p className="text-gray-700 leading-relaxed mb-6">
-            Hubungi Admin SuperSayur untuk pengiriman diluar jangkauan
+            Hubungi Admin SuperSayur untuk melakukan pengiriman diluar kota diatas.
           </p>
         </section>
       </main>
