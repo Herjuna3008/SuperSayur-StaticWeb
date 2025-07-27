@@ -34,7 +34,11 @@ export default function App({ Component, pageProps }) {
         <meta name="theme-color" content="#16a34a" />
         <meta name="description" content="Supplier Sayur & Daging Segar | SuperSayur" />
         <meta name="apple-mobile-web-app-title" content="Super Sayur" />
-        <link rel="icon" href="/favicon.ico" sizes="any"/>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" type="image/png" href="/icon1.png" />
+        <link rel="icon" type="image/svg+xml" href="/icon0.svg" />
+        <link rel="apple-touch-icon" href="/apple-icon.png" />
+        <link rel="manifest" href="/manifest.json" />
       </Head>
       {/* Untuk efek transisi halaman, bisa tambah animasi di container */}
       <LoadingOverlay show={loading}>
