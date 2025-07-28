@@ -1,14 +1,14 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/404": "pages/404.html",
   "/_documents": "pages/_documents.js",
   "/company-profile": "pages/company-profile.html",
-  "/contact": "pages/contact.html",
   "/faq": "pages/faq.html",
+  "/contact": "pages/contact.html",
   "/": "pages/index.html",
   "/jangkauan-pengiriman": "pages/jangkauan-pengiriman.html",
-  "/product": "pages/product.html",
   "/terms": "pages/terms.html",
+  "/product": "pages/product.html",
+  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js"
 }

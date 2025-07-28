@@ -12,7 +12,7 @@ export default function ProductCard({ product }) {
         <h3 className="font-semibold text-lg mb-1">{product.name} 1Kg</h3>
         <div className="flex items-center justify-between">
         <a
-          href={`https://wa.me/6281234567890?text=Saya ingin memesan ${encodeURIComponent(product.name)}`}
+          href={`/contact`}
           target="_blank"
           rel="noopener noreferrer"
           className="block text-center mt-3 bg-green-600 text-white py-2 px-4 rounded-full font-semibold shadow hover:bg-green-700 hover:scale-105 transition-transform"
