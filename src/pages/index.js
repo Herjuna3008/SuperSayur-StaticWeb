@@ -259,7 +259,7 @@ export default function Home() {
         {/* FAQ AnimatedSection */}
         <AnimatedSection effect="fade" className="py-16 bg-gray-50 relative overflow-hidden">
           <img
-            src="https://i.postimg.cc/qR1Z1Xzy/Layer-Side1.png"
+            src="/images/LayerSide1.png"
             alt="Asset"
             className="absolute right-0 top-5 h-75 opacity-40 pointer-events-none animate-wiggle"
           />
