@@ -8,7 +8,7 @@ export default function Footer() {
       <div
         className="absolute left-0 bottom-0 h-full w-1/2 pointer-events-none grayscale"
         style={{
-          backgroundImage: "images/Layer1@300x.png",
+          backgroundImage: "url('images/Layer1@300x.png')",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "left bottom",
           backgroundSize: "contain",
