@@ -1,3 +1,5 @@
+// Startup code for CPanel.
+// Source from Jagoan Hosting || Web hosting service provider.
 const { createServer } = require('http')
 const { parse } = require('url')
 const next = require('next')
